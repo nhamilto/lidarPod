@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.18)  23 SEP 2024 08:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.18)  24 SEP 2024 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -323,160 +323,61 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
 
-LaTeX Warning: cref reference format for label type `' undefined on input line 170.
+LaTeX Warning: cref reference format for label type `' undefined on input line 235.
 
-[5]
-
-LaTeX Warning: cref reference format for label type `' undefined on input line 210.
-
-[6] [7] [8]
-<figs/inflow_20210812.png, id=44, 606.70665pt x 353.76164pt>
-File: figs/inflow_20210812.png Graphic file (type png)
-<use figs/inflow_20210812.png>
-Package pdftex.def Info: figs/inflow_20210812.png  used on input line 279.
-(pdftex.def)             Requested size: 468.0pt x 272.88852pt.
- [9 <./figs/inflow_20210812.png>]
-<figs/time_scale_box.png, id=50, 384.11505pt x 209.22165pt>
-File: figs/time_scale_box.png Graphic file (type png)
-<use figs/time_scale_box.png>
-Package pdftex.def Info: figs/time_scale_box.png  used on input line 303.
-(pdftex.def)             Requested size: 234.0pt x 127.45581pt.
-<figs/mean_scans_20210810.png, id=51, 716.4366pt x 180.675pt>
-File: figs/mean_scans_20210810.png Graphic file (type png)
-<use figs/mean_scans_20210810.png>
-Package pdftex.def Info: figs/mean_scans_20210810.png  used on input line 319.
-(pdftex.def)             Requested size: 468.0pt x 118.02731pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10 <./figs/time_scale_box.png>]
-<figs/wake_center_mean_and_std_20210810.png, id=56, 714.38895pt x 179.59094pt>
-File: figs/wake_center_mean_and_std_20210810.png Graphic file (type png)
-<use figs/wake_center_mean_and_std_20210810.png>
-Package pdftex.def Info: figs/wake_center_mean_and_std_20210810.png  used on input line 347.
-(pdftex.def)             Requested size: 444.59857pt x 111.76724pt.
-<figs/center_locations_xD_20210812.png, id=57, 496.13354pt x 295.94565pt>
-File: figs/center_locations_xD_20210812.png Graphic file (type png)
-<use figs/center_locations_xD_20210812.png>
-Package pdftex.def Info: figs/center_locations_xD_20210812.png  used on input line 359.
-(pdftex.def)             Requested size: 444.59857pt x 265.20612pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figs/center_locations_distribution_B_20210818.png, id=58, 328.8285pt x 232.34805pt>
-File: figs/center_locations_distribution_B_20210818.png Graphic file (type png)
-<use figs/center_locations_distribution_B_20210818.png>
-Package pdftex.def Info: figs/center_locations_distribution_B_20210818.png  used on input line 373.
-(pdftex.def)             Requested size: 222.30286pt x 157.08342pt.
-<figs/center_locations_distribution_comparison_20210818.png, id=59, 328.8285pt x 232.34805pt>
-File: figs/center_locations_distribution_comparison_20210818.png Graphic file (type png)
-<use figs/center_locations_distribution_comparison_20210818.png>
-Package pdftex.def Info: figs/center_locations_distribution_comparison_20210818.png  used on input line 379.
-(pdftex.def)             Requested size: 222.30286pt x 157.08342pt.
-[11 <./figs/mean_scans_20210810.png>] [12 <./figs/wake_center_mean_and_std_20210810.png> <./figs/center_locations_xD_20210812.png>]
-<figs/eigenvalues_20210818.png, id=69, 642.4pt x 203.76125pt>
-File: figs/eigenvalues_20210818.png Graphic file (type png)
-<use figs/eigenvalues_20210818.png>
-Package pdftex.def Info: figs/eigenvalues_20210818.png  used on input line 425.
-(pdftex.def)             Requested size: 468.0pt x 148.4491pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13 <./figs/center_locations_distribution_B_20210818.png> <./figs/center_locations_distribution_comparison_20210818.png>]
-<figs/convergence_std.png, id=76, 503.36055pt x 229.8186pt>
-File: figs/convergence_std.png Graphic file (type png)
-<use figs/convergence_std.png>
-Package pdftex.def Info: figs/convergence_std.png  used on input line 450.
-(pdftex.def)             Requested size: 397.80286pt x 181.62834pt.
- [14 <./figs/eigenvalues_20210818.png>] [15 <./figs/convergence_std.png>]
-<figs/delta_std_boxplots_20210818.png, id=86, 851.3406pt x 237.0456pt>
-File: figs/delta_std_boxplots_20210818.png Graphic file (type png)
-<use figs/delta_std_boxplots_20210818.png>
-Package pdftex.def Info: figs/delta_std_boxplots_20210818.png  used on input line 478.
-(pdftex.def)             Requested size: 468.0pt x 130.31036pt.
- [16 <./figs/delta_std_boxplots_20210818.png>]
-<figs/min_delta_stdDev_by_N.png, id=91, 842.30685pt x 250.7769pt>
-File: figs/min_delta_stdDev_by_N.png Graphic file (type png)
-<use figs/min_delta_stdDev_by_N.png>
-Package pdftex.def Info: figs/min_delta_stdDev_by_N.png  used on input line 547.
-(pdftex.def)             Requested size: 444.59857pt x 132.37157pt.
- [17 <./figs/min_delta_stdDev_by_N.png>]
-<figs/modeOccurenceInBestCases.png, id=96, 572.3784pt x 193.32225pt>
-File: figs/modeOccurenceInBestCases.png Graphic file (type png)
-<use figs/modeOccurenceInBestCases.png>
-Package pdftex.def Info: figs/modeOccurenceInBestCases.png  used on input line 562.
-(pdftex.def)             Requested size: 351.0pt x 118.54881pt.
- [18 <./figs/modeOccurenceInBestCases.png>]
-<figs/regr_coefficient.png, id=101, 578.16pt x 180.675pt>
-File: figs/regr_coefficient.png Graphic file (type png)
-<use figs/regr_coefficient.png>
-Package pdftex.def Info: figs/regr_coefficient.png  used on input line 586.
-(pdftex.def)             Requested size: 365.03943pt x 114.07396pt.
-<figs/C_best_modes.png, id=102, 360.6273pt x 378.33345pt>
-File: figs/C_best_modes.png Graphic file (type png)
-<use figs/C_best_modes.png>
-Package pdftex.def Info: figs/C_best_modes.png  used on input line 600.
-(pdftex.def)             Requested size: 210.59857pt x 220.9345pt.
-<figs/C_worst_modes_20210818.png, id=103, 351.59355pt x 372.9132pt>
-File: figs/C_worst_modes_20210818.png Graphic file (type png)
-<use figs/C_worst_modes_20210818.png>
-Package pdftex.def Info: figs/C_worst_modes_20210818.png  used on input line 606.
-(pdftex.def)             Requested size: 210.59857pt x 223.37408pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[19 <./figs/regr_coefficient.png>]
-<figs/C_rec_best_worst.png, id=109, 1021.53645pt x 198.7425pt>
-File: figs/C_rec_best_worst.png Graphic file (type png)
-<use figs/C_rec_best_worst.png>
-Package pdftex.def Info: figs/C_rec_best_worst.png  used on input line 627.
-(pdftex.def)             Requested size: 468.0pt x 91.04964pt.
- [20 <./figs/C_best_modes.png> <./figs/C_worst_modes_20210818.png> <./figs/C_rec_best_worst.png>]
-<figs/wake_spectra.png, id=116, 850.97925pt x 200.9106pt>
-File: figs/wake_spectra.png Graphic file (type png)
-<use figs/wake_spectra.png>
-Package pdftex.def Info: figs/wake_spectra.png  used on input line 641.
-(pdftex.def)             Requested size: 468.0pt x 110.49196pt.
- [21 <./figs/wake_spectra.png>]
-<figs/best_coeff_st.png, id=121, 417.35925pt x 417.7206pt>
-File: figs/best_coeff_st.png Graphic file (type png)
-<use figs/best_coeff_st.png>
-Package pdftex.def Info: figs/best_coeff_st.png  used on input line 660.
-(pdftex.def)             Requested size: 229.32257pt x 229.52394pt.
-<figs/worst_coeff_st.png, id=122, 417.35925pt x 417.7206pt>
-File: figs/worst_coeff_st.png Graphic file (type png)
-<use figs/worst_coeff_st.png>
-Package pdftex.def Info: figs/worst_coeff_st.png  used on input line 663.
-(pdftex.def)             Requested size: 229.32257pt x 229.52394pt.
-<figs/ST_comparison.png, id=123, 561.89925pt x 271.7352pt>
-File: figs/ST_comparison.png Graphic file (type png)
-<use figs/ST_comparison.png>
-Package pdftex.def Info: figs/ST_comparison.png  used on input line 676.
-(pdftex.def)             Requested size: 374.40143pt x 181.0665pt.
- [22 <./figs/best_coeff_st.png> <./figs/worst_coeff_st.png>] [23 <./figs/ST_comparison.png>] [24] (aux/Hamilton_draft.bbl [25] [26] [27]) [28] (aux/Hamilton_draft.aux)
+<figs/caseCounts_20240828.png, id=34, 353.1594pt x 244.7544pt>
+File: figs/caseCounts_20240828.png Graphic file (type png)
+<use figs/caseCounts_20240828.png>
+Package pdftex.def Info: figs/caseCounts_20240828.png  used on input line 251.
+(pdftex.def)             Requested size: 234.0pt x 162.16954pt.
+[6] [7 <./figs/caseCounts_20240828.png>]
+<figs/windrose_20240828.png, id=45, 447.1104pt x 341.1144pt>
+File: figs/windrose_20240828.png Graphic file (type png)
+<use figs/windrose_20240828.png>
+Package pdftex.def Info: figs/windrose_20240828.png  used on input line 283.
+(pdftex.def)             Requested size: 280.80286pt x 214.23695pt.
+<figs/awakenSchem_20240923.png, id=46, 280.977pt x 369.234pt>
+File: figs/awakenSchem_20240923.png Graphic file (type png)
+<use figs/awakenSchem_20240923.png>
+Package pdftex.def Info: figs/awakenSchem_20240923.png  used on input line 286.
+(pdftex.def)             Requested size: 177.84229pt x 233.70601pt.
+<figs/power_curve_cases_20240911.png, id=47, 414.8298pt x 244.2726pt>
+File: figs/power_curve_cases_20240911.png Graphic file (type png)
+<use figs/power_curve_cases_20240911.png>
+Package pdftex.def Info: figs/power_curve_cases_20240911.png  used on input line 296.
+(pdftex.def)             Requested size: 304.19714pt x 179.13007pt.
+ [8]
+<figs/raawSchem_20240923.png, id=51, 354.123pt x 199.728pt>
+File: figs/raawSchem_20240923.png Graphic file (type png)
+<use figs/raawSchem_20240923.png>
+Package pdftex.def Info: figs/raawSchem_20240923.png  used on input line 306.
+(pdftex.def)             Requested size: 234.0pt x 131.98239pt.
+ [9 <./figs/windrose_20240828.png> <./figs/awakenSchem_20240923.png> <./figs/power_curve_cases_20240911.png>] [10 <./figs/raawSchem_20240923.png>] [11]
+<figs/inflow_WS_TS_ST_20240924.png, id=65, 714.5094pt x 172.4844pt>
+File: figs/inflow_WS_TS_ST_20240924.png Graphic file (type png)
+<use figs/inflow_WS_TS_ST_20240924.png>
+Package pdftex.def Info: figs/inflow_WS_TS_ST_20240924.png  used on input line 397.
+(pdftex.def)             Requested size: 468.0pt x 112.97679pt.
+ (aux/Hamilton_draft.bbl [12 <./figs/inflow_WS_TS_ST_20240924.png>] [13] [14] [15] [16]) [17] (aux/Hamilton_draft.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8948 strings out of 476025
- 157187 string characters out of 5790017
- 1864388 words of memory out of 5000000
- 29282 multiletter control sequences out of 15000+600000
- 527574 words of font info for 88 fonts, out of 8000000 for 9000
+ 8849 strings out of 476025
+ 154367 string characters out of 5790017
+ 1862388 words of memory out of 5000000
+ 29196 multiletter control sequences out of 15000+600000
+ 525574 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,9n,77p,1392b,546s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on aux/Hamilton_draft.pdf (28 pages, 1868668 bytes).
+ 71i,8n,77p,1392b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on aux/Hamilton_draft.pdf (17 pages, 2105402 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
+ 162 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
