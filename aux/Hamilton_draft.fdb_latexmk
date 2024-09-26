@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex aux/Hamilton_draft"] 1727219923 "aux/Hamilton_draft.aux" "aux/Hamilton_draft.bbl" "aux/Hamilton_draft" 1727219925 0
+["bibtex aux/Hamilton_draft"] 1727308975 "aux/Hamilton_draft.aux" "aux/Hamilton_draft.bbl" "aux/Hamilton_draft" 1727308978 0
   "./refs.bib" 1727206046 44743 eb5486cbbf9b2b8832263d39d92be8e4 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/revtex/aipnum4-2.bst" 1601932770 68586 d1f3a99a81bc39d512a69a183f4980c1 ""
-  "aux/Hamilton_draft.aux" 1727219924 11120 ffaf01430f3147b9056e1af43ff99e75 "pdflatex"
-  "aux/Hamilton_draftNotes.bib" 1727219924 69 d99b699d067ab3f906420b0b7ca24b61 "pdflatex"
+  "aux/Hamilton_draft.aux" 1727308977 13735 43655176f30f51390cf98fdc9b5373a6 "pdflatex"
+  "aux/Hamilton_draftNotes.bib" 1727308977 69 d99b699d067ab3f906420b0b7ca24b61 "pdflatex"
   (generated)
   "aux/Hamilton_draft.bbl"
   "aux/Hamilton_draft.blg"
   (rewritten before read)
-["pdflatex"] 1727219923 "/Users/nhamilt2/Documents/AWAKEN/lidarPOD/lidarPod/Hamilton_draft.tex" "aux/Hamilton_draft.pdf" "Hamilton_draft" 1727219925 0
-  "/Users/nhamilt2/Documents/AWAKEN/lidarPOD/lidarPod/Hamilton_draft.tex" 1727219918 71440 4c32b5474a252d04be1d71bfb4ad6bd0 ""
+["pdflatex"] 1727308975 "/Users/nhamilt2/Documents/AWAKEN/lidarPOD/lidarPod/Hamilton_draft.tex" "aux/Hamilton_draft.pdf" "Hamilton_draft" 1727308978 0
+  "/Users/nhamilt2/Documents/AWAKEN/lidarPOD/lidarPod/Hamilton_draft.tex" 1727308972 75724 43e6bdbc58f912f1af7f2ba50c091858 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -113,15 +113,25 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1705620958 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1705620704 7883461 cfca46de4e13723c1549a46f0d2210a0 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Hamilton_draft.tex" 1727219918 71440 4c32b5474a252d04be1d71bfb4ad6bd0 ""
-  "aux/Hamilton_draft.aux" 1727219924 11120 ffaf01430f3147b9056e1af43ff99e75 "pdflatex"
-  "aux/Hamilton_draft.bbl" 1727219923 43575 cec052faac0519d15ec4ad272665a818 "bibtex aux/Hamilton_draft"
+  "Hamilton_draft.tex" 1727308972 75724 43e6bdbc58f912f1af7f2ba50c091858 ""
+  "aux/Hamilton_draft.aux" 1727308977 13735 43655176f30f51390cf98fdc9b5373a6 "pdflatex"
+  "aux/Hamilton_draft.bbl" 1727308975 43575 cec052faac0519d15ec4ad272665a818 "bibtex aux/Hamilton_draft"
+  "figs/all_modes_20240826.png" 1724682899 187937 37230dbff00c1050cc3738e02ec7f09d ""
   "figs/awakenSchem_20240923.png" 1727131718 596007 555c91061188a20e79a6bd0ee81c9bcb ""
   "figs/caseCounts_20240828.png" 1725050602 24889 e54fdaaa0763acc7aff8e572a303e5d0 ""
   "figs/inflow_WS_TS_ST_20240924.png" 1727204367 28146 fddf4973ad5ca59b073bcad732eba52e ""
+  "figs/lidarScan_-70_wakeCenters_20240925.png" 1727299176 58859 979988beb4ae3ceeae27ca1a1ef457fd ""
+  "figs/lidarScan_700_wakeCenters_20240925.png" 1727299175 58794 bd93154f044996a88cd5c94765a3e3aa ""
+  "figs/lidarX.20230904.103004.png" 1726181277 44989 c87781cfcdab704c385ba12951d69e47 ""
   "figs/power_curve_cases_20240911.png" 1726093415 86546 1a3aba9b944af9a777d63172bdf2a601 ""
   "figs/raawSchem_20240923.png" 1727131699 1133298 8c7144bed3f73874d98b857ccb3b778c ""
+  "figs/wakeCenter_byRange_20240925.png" 1727299194 79143 7905310911ec05d828b9e97152f22187 ""
+  "figs/wakePSD_20240925.png" 1727301340 54215 373f11624f34bda3f83ddee0259f4c94 ""
+  "figs/wakePremult_20240925.png" 1727301614 61565 e7e412a9d6ead4a4745d7a3ce77242ef ""
+  "figs/wake_center_advection_20240925.png" 1727299686 111279 538a31b4fa591e3577bcc09f2bd6b6d5 ""
+  "figs/wake_center_kde_20240925.png" 1727299981 86789 53941a0a83e03b3c31dc929180863564 ""
   "figs/windrose_20240828.png" 1726848184 144050 2038392d987bce72511d927f7b3b97e3 ""
+  "figs/yawCorrectedWakeCenter_20240925.png" 1727299270 110264 1cd14ee2b0e6c8f339cc34ee2c1e8ceb ""
   (generated)
   "aux/Hamilton_draft.aux"
   "aux/Hamilton_draft.log"

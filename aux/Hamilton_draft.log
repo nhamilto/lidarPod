@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.18)  24 SEP 2024 16:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.18)  25 SEP 2024 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -252,7 +252,14 @@ Class revtex4-2 Info: multicol was not loaded (OK!) on input line 41.
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box70
-) (aux/Hamilton_draft.aux)
+) (aux/Hamilton_draft.aux
+
+LaTeX Warning: Label `fig:lidarScanCenters' multiply defined.
+
+
+LaTeX Warning: Label `fig:lidarScanCenters@cref' multiply defined.
+
+)
 \openout1 = `Hamilton_draft.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -360,24 +367,92 @@ File: figs/inflow_WS_TS_ST_20240924.png Graphic file (type png)
 <use figs/inflow_WS_TS_ST_20240924.png>
 Package pdftex.def Info: figs/inflow_WS_TS_ST_20240924.png  used on input line 397.
 (pdftex.def)             Requested size: 468.0pt x 112.97679pt.
- (aux/Hamilton_draft.bbl [12 <./figs/inflow_WS_TS_ST_20240924.png>] [13] [14] [15] [16]) [17] (aux/Hamilton_draft.aux)
+<figs/lidarX.20230904.103004.png, id=66, 339.1872pt x 245.2362pt>
+File: figs/lidarX.20230904.103004.png Graphic file (type png)
+<use figs/lidarX.20230904.103004.png>
+Package pdftex.def Info: figs/lidarX.20230904.103004.png  used on input line 433.
+(pdftex.def)             Requested size: 234.0pt x 169.1907pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/wakeCenter_byRange_20240925.png, id=67, 713.5458pt x 208.1376pt>
+File: figs/wakeCenter_byRange_20240925.png Graphic file (type png)
+<use figs/wakeCenter_byRange_20240925.png>
+Package pdftex.def Info: figs/wakeCenter_byRange_20240925.png  used on input line 441.
+(pdftex.def)             Requested size: 468.0pt x 136.51373pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/yawCorrectedWakeCenter_20240925.png, id=68, 444.2196pt x 275.5896pt>
+File: figs/yawCorrectedWakeCenter_20240925.png Graphic file (type png)
+<use figs/yawCorrectedWakeCenter_20240925.png>
+Package pdftex.def Info: figs/yawCorrectedWakeCenter_20240925.png  used on input line 448.
+(pdftex.def)             Requested size: 468.0pt x 290.3616pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/lidarScan_-70_wakeCenters_20240925.png, id=69, 469.755pt x 244.7544pt>
+File: figs/lidarScan_-70_wakeCenters_20240925.png Graphic file (type png)
+<use figs/lidarScan_-70_wakeCenters_20240925.png>
+Package pdftex.def Info: figs/lidarScan_-70_wakeCenters_20240925.png  used on input line 456.
+(pdftex.def)             Requested size: 224.638pt x 117.04007pt.
+<figs/lidarScan_700_wakeCenters_20240925.png, id=70, 469.755pt x 244.7544pt>
+File: figs/lidarScan_700_wakeCenters_20240925.png Graphic file (type png)
+<use figs/lidarScan_700_wakeCenters_20240925.png>
+Package pdftex.def Info: figs/lidarScan_700_wakeCenters_20240925.png  used on input line 459.
+(pdftex.def)             Requested size: 224.638pt x 117.04007pt.
+<figs/wake_center_advection_20240925.png, id=71, 353.1594pt x 208.6194pt>
+File: figs/wake_center_advection_20240925.png Graphic file (type png)
+<use figs/wake_center_advection_20240925.png>
+Package pdftex.def Info: figs/wake_center_advection_20240925.png  used on input line 469.
+(pdftex.def)             Requested size: 224.638pt x 132.69785pt.
+<figs/wake_center_kde_20240925.png, id=72, 353.1594pt x 208.1376pt>
+File: figs/wake_center_kde_20240925.png Graphic file (type png)
+<use figs/wake_center_kde_20240925.png>
+Package pdftex.def Info: figs/wake_center_kde_20240925.png  used on input line 472.
+(pdftex.def)             Requested size: 224.638pt x 132.39139pt.
+[12 <./figs/inflow_WS_TS_ST_20240924.png>]
+<figs/wakePSD_20240925.png, id=77, 348.8232pt x 214.8828pt>
+File: figs/wakePSD_20240925.png Graphic file (type png)
+<use figs/wakePSD_20240925.png>
+Package pdftex.def Info: figs/wakePSD_20240925.png  used on input line 492.
+(pdftex.def)             Requested size: 224.638pt x 138.38356pt.
+<figs/wakePremult_20240925.png, id=78, 348.8232pt x 214.8828pt>
+File: figs/wakePremult_20240925.png Graphic file (type png)
+<use figs/wakePremult_20240925.png>
+Package pdftex.def Info: figs/wakePremult_20240925.png  used on input line 495.
+(pdftex.def)             Requested size: 224.638pt x 138.38356pt.
+<figs/all_modes_20240826.png, id=79, 709.6914pt x 569.0058pt>
+File: figs/all_modes_20240826.png Graphic file (type png)
+<use figs/all_modes_20240826.png>
+Package pdftex.def Info: figs/all_modes_20240826.png  used on input line 504.
+(pdftex.def)             Requested size: 468.0pt x 375.22374pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13 <./figs/lidarX.20230904.103004.png> <./figs/wakeCenter_byRange_20240925.png>] [14 <./figs/yawCorrectedWakeCenter_20240925.png> <./figs/lidarScan_-70_wakeCenters_20240925.png> <./figs/lidarScan_700_wakeCenters_20240925.png>] (aux/Hamilton_draft.bbl [15 <./figs/wake_center_advection_20240925.png> <./figs/wake_center_kde_20240925.png> <./figs/wakePSD_20240925.png> <./figs/wakePremult_20240925.png>] [16 <./figs/all_modes_20240826.png>] [17] [18] [19] [20]) [21] (aux/Hamilton_draft.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 8849 strings out of 476025
- 154367 string characters out of 5790017
- 1862388 words of memory out of 5000000
- 29196 multiletter control sequences out of 15000+600000
+ 8935 strings out of 476025
+ 157368 string characters out of 5790017
+ 1863388 words of memory out of 5000000
+ 29272 multiletter control sequences out of 15000+600000
  525574 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,8n,77p,1392b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on aux/Hamilton_draft.pdf (17 pages, 2105402 bytes).
+Output written on aux/Hamilton_draft.pdf (21 pages, 2770941 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 196 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

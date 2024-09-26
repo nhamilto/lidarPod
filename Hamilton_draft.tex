@@ -420,10 +420,113 @@ The integral time scales, $T$, are taken as the characteristic period of the flu
 
 % section Data (end)
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Results} % (fold)
-% \label{sec:Results}
-% %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results} % (fold)
+\label{sec:Results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The full analysis we undertake in the current work is quite complex. 
+We present results in this section for a single dataset to illustrate the full workflow, then contextualize the high-level relationships for all 71 cases later on. 
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]{figs/lidarX.20230904.103004.png}
+  \caption{Time-azimuth cross section of a line of sight velcoity from a lidar scan 1,005 m downstream of the lidar. The wake is shown in dark blue and background velocity in green/yellow. }
+  \label{fig:lidarAzTime}
+\end{figure}
+
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{figs/wakeCenter_byRange_20240925.png}
+  \caption{Detected wake centers showing Guassian fit against momentum deficit. Blue lines indicate momentum deficit estimated from lidar scans, dashed line shows the fit Gaussian profile, red point is the detected wake center $\mu$.}
+  \label{fig:wakeCenterByRange}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{figs/yawCorrectedWakeCenter_20240925.png}
+  \caption{}
+  \label{fig:yawCorrectedWakeCenter}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \begin{subfigure}[b]{0.48\columnwidth}
+    \includegraphics[width=\columnwidth]{figs/lidarScan_-70_wakeCenters_20240925.png}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.48\columnwidth}
+    \includegraphics[width=\columnwidth]{figs/lidarScan_700_wakeCenters_20240925.png}
+  \end{subfigure}
+  \caption{Example lidar scans showing $u$ overlaid with the fitted wake centers. Detected wake centers are colored by their respective coefficent of determination.}
+  \label{fig:lidarScanCenters}
+\end{figure}
+
+
+\begin{figure}[htbp]
+  \centering
+  \begin{subfigure}[b]{0.48\columnwidth}
+    \includegraphics[width=\columnwidth]{figs/wake_center_advection_20240925.png}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.48\columnwidth}
+    \includegraphics[width=\columnwidth]{figs/wake_center_kde_20240925.png}
+  \end{subfigure}
+  \caption{Wake center trajectories for selected times (left) and kernal density estiamtes of wake centers by distance downstream of the lidar (right).}
+  \label{fig:lidarScanCenters}
+\end{figure}
+
+
+\begin{equation}
+  P_{\mu\mu}(f) = \frac{1}{L} \sum_{k=1}^{K} \frac{1}{N} \left| \sum_{n=1}^{N} \mu_k(n)  e^{-i 2\pi f n / N} \right|^2  
+\label{eq:psd}
+\end{equation}
+where, $K$ is the number of segments,
+$L=512$ samples is the number of points in the FFT
+$N=1,024$ is the length of each segment,
+$\mu_k(n)$ is the $k$-th segment of the time series. A uniform window function is applied to each segment in the calculation of the PSDs.
+The frequency range for all spectra in the current work have been normalized with the average inflow velocity recorded by the met towers, $U_\infty$, and the turbine's rotor diameter, $D$, as $f_{St} = f * D / U_\infty$
+
+\begin{figure}[htbp]
+  \centering
+  \begin{subfigure}[b]{0.48\columnwidth}
+    \includegraphics[width=\columnwidth]{figs/wakePSD_20240925.png}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.48\columnwidth}
+    \includegraphics[width=\columnwidth]{figs/wakePremult_20240925.png}
+  \end{subfigure}
+  \caption{PSDs (left) and premultiplied spectra (right) of detected wake centers from the lidar data at selected downstream distances.}
+  \label{fig:lidarSpec}
+\end{figure}
+
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{figs/all_modes_20240826.png}
+  \caption{POD modes from the example case on 2023-09-04 10:30 UTC.}
+  \label{fig:allModes}
+\end{figure}
+
+We use coherence \cref{eq:coh} to quantify the similarity of wake center trajectories between the lidar scans and any of the ROMs.
+\begin{equation}
+  \gamma^2(f) = \frac{|\mathcal{P}_{\mu\hat{\mu}_r}(f)|^2}{\mathcal{P}_{\mu\mu}(f) \mathcal{P}_{\hat{\mu}_r\hat{\mu}_r}(f)}
+\label{eq:coh}
+\end{equation}
+
+
+
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=0.5\textwidth]{figs/wake_center_advection_20240925.png}
+%   \caption{Wake center trajectories for selected times. }
+%   \label{fig:wakeCenterAdvection}
+% \end{figure}
+
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=0.5\textwidth]{figs/wake_center_kde_20240925.png}
+%   \caption{Kernal density estiamtes of wake centers by distance downstream of the lidar. }
+%   \label{fig:wakeCenterKDE}
+% \end{figure}
 
 % The mean wake centerline for each case differs depending on how it is derived: either by applying the Gaussian fit to each scan individually and then averaging collection of fit center locations across all scans (\Cref{fig:wakecenter}, crosses) or by considering wake centers in  ensembles, averaging 10-minute wake centers together to obtain a final value (\Cref{fig:wakecenter}, circles).  
 % In Cases A and B, the average wake center location considering 10-min ensembles is consistently more shifted toward the left looking downstream (negative values of $y/D$) than the estimate of the time-averaged location, while the opposite is true for Case C. For Cases A and C, the two methods disagree by approximately 6.7 m and 21 m, respectively, occurring at $x/D=9$ for each case.
