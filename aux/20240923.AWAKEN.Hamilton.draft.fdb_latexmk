@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex aux/20240923.AWAKEN.Hamilton.draft"] 1733940073.86323 "aux/20240923.AWAKEN.Hamilton.draft.aux" "aux/20240923.AWAKEN.Hamilton.draft.bbl" "aux/20240923.AWAKEN.Hamilton.draft" 1733940075.43497 0
+["bibtex aux/20240923.AWAKEN.Hamilton.draft"] 1733945559.72348 "aux/20240923.AWAKEN.Hamilton.draft.aux" "aux/20240923.AWAKEN.Hamilton.draft.bbl" "aux/20240923.AWAKEN.Hamilton.draft" 1733945561.24727 0
   "./20240923.AWAKEN.refs.bib" 1733272026.60694 51506 6aeb95fe664e0de307919a646288bd72 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/revtex/aipnum4-2.bst" 1601932770 68586 d1f3a99a81bc39d512a69a183f4980c1 ""
-  "aux/20240923.AWAKEN.Hamilton.draft.aux" 1733940075.1013 20324 bb12b400cf14fb6ec09a6d4404c090d1 "pdflatex"
-  "aux/20240923.AWAKEN.Hamilton.draftNotes.bib" 1733940075.1025 69 d99b699d067ab3f906420b0b7ca24b61 "pdflatex"
+  "aux/20240923.AWAKEN.Hamilton.draft.aux" 1733945560.925 19927 189080d65a48a51525fa2749e4f57c98 "pdflatex"
+  "aux/20240923.AWAKEN.Hamilton.draftNotes.bib" 1733945560.92618 69 d99b699d067ab3f906420b0b7ca24b61 "pdflatex"
   (generated)
   "aux/20240923.AWAKEN.Hamilton.draft.bbl"
   "aux/20240923.AWAKEN.Hamilton.draft.blg"
   (rewritten before read)
-["pdflatex"] 1733940073.97657 "/Users/nhamilt2/Documents/Projects/AWAKEN/lidarPOD/article/20240923.AWAKEN.Hamilton.draft.tex" "aux/20240923.AWAKEN.Hamilton.draft.pdf" "20240923.AWAKEN.Hamilton.draft" 1733940075.43519 0
-  "/Users/nhamilt2/Documents/Projects/AWAKEN/lidarPOD/article/20240923.AWAKEN.Hamilton.draft.tex" 1733940072.11434 72353 47812740e53286dbe1300f6d9b07fbe0 ""
+["pdflatex"] 1733945559.83563 "/Users/nhamilt2/Documents/Projects/AWAKEN/lidarPOD/article/20240923.AWAKEN.Hamilton.draft.tex" "aux/20240923.AWAKEN.Hamilton.draft.pdf" "20240923.AWAKEN.Hamilton.draft" 1733945561.24746 0
+  "/Users/nhamilt2/Documents/Projects/AWAKEN/lidarPOD/article/20240923.AWAKEN.Hamilton.draft.tex" 1733945558.03068 72276 cea20b965544d314554428549825f4bd ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -116,9 +116,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1730146743.39098 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1730146716 8221433 9d5f707232ffcfde9f5241594fbcfc45 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "20240923.AWAKEN.Hamilton.draft.tex" 1733940072.11434 72353 47812740e53286dbe1300f6d9b07fbe0 ""
-  "aux/20240923.AWAKEN.Hamilton.draft.aux" 1733940075.1013 20324 bb12b400cf14fb6ec09a6d4404c090d1 "pdflatex"
-  "aux/20240923.AWAKEN.Hamilton.draft.bbl" 1733940073.96779 43005 1a1faa7747b77f48fc1038ff4305b79b "bibtex aux/20240923.AWAKEN.Hamilton.draft"
+  "20240923.AWAKEN.Hamilton.draft.tex" 1733945558.03068 72276 cea20b965544d314554428549825f4bd ""
+  "aux/20240923.AWAKEN.Hamilton.draft.aux" 1733945560.925 19927 189080d65a48a51525fa2749e4f57c98 "pdflatex"
+  "aux/20240923.AWAKEN.Hamilton.draft.bbl" 1733945559.82835 43005 1a1faa7747b77f48fc1038ff4305b79b "bibtex aux/20240923.AWAKEN.Hamilton.draft"
   "figs/20240826.AWAKEN.all.modes.png" 1724682899 187937 37230dbff00c1050cc3738e02ec7f09d ""
   "figs/20240911.AWAKEN.power.curve.cases.png" 1726093415 86546 1a3aba9b944af9a777d63172bdf2a601 ""
   "figs/20240923.AWAKEN.awakenSchem.png" 1727131718.583 596007 555c91061188a20e79a6bd0ee81c9bcb ""
@@ -138,7 +138,6 @@
   "figs/20241204.beta.violinJitter.pdf" 1733442903 25484 f21d2f0d94900ca78736c6846d37c544 ""
   "figs/20241204.lamda_v_beta.pdf" 1733439631 33979 d7a2c33b8b508df1bfa24d0bf8ccfe5e ""
   "figs/20241204.vareps_by_ROM.pdf" 1733434686 135514 07e96b41b21ee9f17dc10b6cbfa2d213 ""
-  "figs/20241205.inflowStats.pdf" 1733441288 20463 3fefc0c62c174e34df5c37e682a1ce0b ""
   "figs/20241205.residualHist.pdf" 1733438375 10149 60cc8b957168403c9a2a49fc59d11235 ""
   "figs/20241205.residual_byNmodes.pdf" 1733438371 33169 d9c00264f48b9c685db5894e424b4d12 ""
   "figs/20241206.RAAW.schem.pdf" 1733504102.36356 220219 60051ed8e7407a2420f8a97ed3f8c9ac ""

@@ -141,10 +141,10 @@ In \cref{eq:deficit}, $u$ represents the streamwise velocity measurement, estima
 Because our data are collected in approximately horizontal planes at hub height, we only consider lateral movements of the wake center along the $y$-direction at a fixed height above the ground, $z=z_{hub}$.
 The wake center is detected through a least-squares fit of a Gaussian function to the observed $\tilde{u}$ by the lidar at each downstream location and for each time.
 \begin{equation}
-  \tilde{u}(x,y,t) = A \exp{\frac{1}{2}\left[ \frac{y-\mu(x,t)}{\sigma(x,t)}\right]^2} + C
+  \tilde{u}(x,y,t) = A \exp{\frac{1}{2}\left[ \frac{y-\mu(x,t)}{\sigma_w(x,t)}\right]^2} + C
   \label{eq:gaussfit}
 \end{equation}
-In \cref{eq:gaussfit}, the peak momentum deficit is denoted as $A$, the standard deviation corresponding to wake width is $\sigma$, and the lateral wake center is $\mu$.
+In \cref{eq:gaussfit}, the peak momentum deficit is denoted as $A$, the standard deviation corresponding to wake width is $\sigma_w$, and the lateral wake center is $\mu$.
 An offset term, $C$, is included in the function, although it is typically a relatively small value, $-1 \lesssim C \lesssim 1$. 
 
 
@@ -292,10 +292,18 @@ The RAAW project used a prototype R\&D turbine in Lubbock, TX, with a hub height
 Both projects employed Halo Photonics Streamline XR+ Doppler scanning lidars positioned on the aft sections of the nacelles. 
 These were configured for various measurement strategies, including plan-position indicator (PPI) scans to measure fluctuating wake flow fields.
 
-Wake PPIs were designed using the LiSBOA tool,\cite{letizia2021lisboa} sweeping approximately 1$^\circ$ of azimuth per second, covering a sector of approximately 20$^\circ$ centered downstream of the turbine. 
+Wake PPIs were designed using the LiSBOA tool,\cite{letizia2021lisboa} sweeping approximately 1$^\circ$ of azimuth per second, covering a sector of approximately 40$^\circ$ centered downstream of the turbine. 
 Lidar data were quality controlled using the Field EXperiments Tool Arsenal (FIEXTA) software,\cite{nrelfiexta2024} which implements dynamic filtering methods from.\citet{beckDynamicDataFiltering2017}
 Data were temporally upsampled using local advection velocities and the time delays between successive beams at similar azimuth angles,\cite{beckTemporalUpSamplingPlanar2019} producing line-of-sight velocity `snapshots' at a temporal resolution of 1 second.
-\comment{Verify scan rates and limits.}
+
+While the lidars are capable of making measurements up to 4 km from the wind turbine, the measurement qualilty is typically quite low, and wakes are often fully recovered far sooner.
+Additionally, the data collected in the AWAKEN project include only inflows from a southerly sector, and the downstream row of turbines is often visible in the scan data. 
+To preclude observations of wakes of neighboring turbines from influencing wake center estimates, which would complicate the modal analysis undertaken below, scans are constrained to ranges where $2.5 \le x/D \le 10$ and azimuth angles $-20^\circ \le \alpha \le 20^\circ$. 
+\comment{check azimuth limits}
+
+% Each data set of continuous PPI scans lasted approximately 30 minute, with a full azimuthal sweep occuring approximately every 18 to 20 seconds.
+% After spatiotemporal upsampling following the procedure outlined in \citet{beckTemporalUpSamplingPlanar2019}, each data case from the AWAKEN project contained approximately 1,650 snapshots (complete, infilled scans) at temporal resolution of 1 s. 
+% Data cases from the RAAW project are contained in 15 minute sections, leading to upsampled and infilled data sets of approximately 800 scans each at a temporal resolution of 1 s.
 
 \begin{table}[htbp]
   \caption{\comment{build table describing data, lidar scan parameters for AWAKEN, RAAW}}
@@ -313,16 +321,6 @@ v_\text{los}(r)=u \cos\zeta \cos(\alpha-\theta)+ w\sin\zeta
 where $u$ is the horizontal wind speed, $r$ is the range along the laser beam, $\zeta$ is the elevation angle, $\alpha$ is the azimuth angle, and $\theta$ is the wind direction. 
 For all lidar measurements used in this analysis, the elevation angle was fixed at 0$^\circ$, simplifying the relationship between $v_\text{los}$ and $u$.
 
-
-While the lidars are capable of making measurements up to 4 km from the wind turbine, the measurement qualilty is typically quite low, and wakes are often fully recovered far sooner.
-Additionally, the data collected in the AWAKEN project include only inflows from a southerly sector, and the downstream row of turbines is often visible in the scan data. 
-To preclude observations of wakes of neighboring turbines from influencing wake center estimates, which would complicate the modal analysis undertaken below, scans are constrained to ranges where $2.5 \le x/D \le 10$ and azimuth angles $-20^\circ \le \alpha \le 20^\circ$.
-\comment{check azimuth limits}
-
-Each data set of continuous PPI scans lasted approximately 30 minute, with a full azimuthal sweep occuring approximately every 18 to 20 seconds.
-After spatiotemporal upsampling following the procedure outlined in \citet{beckTemporalUpSamplingPlanar2019}, each data case from the AWAKEN project contained approximately 1,650 snapshots (complete, infilled scans) at temporal resolution of 1 s. 
-Data cases from the RAAW project are contained in 15 minute sections, leading to upsampled and infilled data sets of approximately 800 scans each at a temporal resolution of 1 s.
-
 Measurement cases combining lidar data sets and inflow measurements were considered only after passing through the following quality control filters. Each filter is followed by a metric indcating the portion of the population of data that were disallowed and a description. Note that more than one filter condition was applicable to many of the data points.
 \begin{description}
   \item[Sensor Quality---6\%] Measurement cases combining lidar data sets and inflow measurements were considered only after filtering out stuck, broken, or defective sensors. This ensures that all required measurements are reliable and eliminates cases where data are missing or sensors fail to report reasonable observations.
@@ -331,7 +329,7 @@ Measurement cases combining lidar data sets and inflow measurements were conside
   \item[Power Production Threshold---18\%] Cases were filtered to include only those where active power is greater than 150 kW and that power generation is within one standar deviation of the nominal power curve. This criterion ensures that the turbine is operating nominally and that a wake will be evident in the lidar data. The selection allows for describing wake meandering under a wide range of atmospheric conditions and inflow wind speeds.
   \item[Variability Filtering---10\%] As a final quality control step, cases were excluded where the total variation exceeded the 90\textsuperscript{th} percentile. Following the method outlined by Hamilton,\cite{hamilton2020atmospheric} total variation is defined as the determinate of the covariance matrix relating inflow wind speed, wind direction, turbulence intensity, turbine power production, and nacelle position signals from the SCADA record. This step ensures that only statistically stationary conditions are considered, eliminating cases with drastically changing atmospheric conditions or significant turbine control actions during the lidar scan period.
 \end{description}
-A total of 65 cases were retained after applying each of the quality control filters enumated above, including 54 cases from the AWAKEN proejct and 11 cases from the RAAW project.
+A total of 65 cases were retained after applying each of the quality control filters enumated above, including 54 cases from the AWAKEN project and 11 cases from the RAAW project.
 \Cref{fig:power_curve_cases} shows the distribution of the full range of cases with wake PPI scans. 
 Cases that did not pass all of the quality control measures listed above are shown in gray. 
 The final cases selected for analysis are highlighted in the figure according to the total yaw travel observed during the respective wake scanning period.
@@ -359,12 +357,12 @@ In practice, this calculation was performed using 20-Hz wind speed measurements 
 \Cref{fig:ts} shows the distribution of inflow wind speed, $U_\infty$, integral time scale, $T$, and inflow Strouhal number, $St_\text{in}$ for each of the 71 cases from the combined RAAW aand AWAKEN experiments.
 The integral time scales, $T$, are taken as the characteristic period of the fluctuation in the velocity field and are used to define the characteristic frequency of turbulent fluctuations in the discussion of meandering frequencies. 
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\textwidth]{figs/20241205.inflowStats.pdf}
-  \caption{Distributions of the average inflow conditions observed at the surface met stations at Site A1 throughout the AWAKEN and RAAW campaigns.}
-  \label{fig:inflowStats}
-\end{figure}
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=\textwidth]{figs/20241205.inflowStats.pdf}
+%   \caption{Distributions of the average inflow conditions observed at the surface met stations at Site A1 throughout the AWAKEN and RAAW campaigns.}
+%   \label{fig:inflowStats}
+% \end{figure}
 
 \begin{figure}[h]
     \centering
@@ -381,7 +379,7 @@ The integral time scales, $T$, are taken as the characteristic period of the flu
 Average scans shown for selected cases are shown in \cref{fig:aveScans} and highlight differences in the peak momentum deficit and recovery rate of wakes in different atmospheric conditions.
 While all data sets include some yaw activity, the average wake is centered around $\alpha=0$. 
 Each of time-averaged velocity fields in \cref{fig:aveScans} highlights characteristics of the wind turbine wake as well as the influence of the atmsopheric forcing conditions and effects of the wind turbine operations and controls. 
-The data quality control preferntially selecetd the most statistically stationary cases from the full population of data.
+The data quality control preferntially selecets the most statistically stationary cases from the full population of data.
 As a consequence of this selection, there is a bias toward stable atmospheric conditions in which the yaw travel was minimized during the lidar collection periods of both experiments.
 
 \begin{figure}[htbp]
@@ -441,7 +439,7 @@ Because changes in the nacelle position impact the apparent wake centers uniform
 Correcting for changes in nacelle position throughout each dataset is important to correctly characterize the distributions of wake centers and their dynamics in the turbine frame of reference.
 % TODO: add to discussion
 It should be noted that turbines take yaw-correcting actions only after after an integrator of error between the measured wind direction and the nacelle position exceeds a threshold.
-This means that in most cases there remains some influence of yaw misalignemnt on the detected wake centers even after correcting for yaw activity. 
+This means that in most cases there remains some influence of yaw misalignment on the detected wake centers even after correcting for yaw activity. 
 Without a time history, it is not possible to accurately account for the yaw error.
 However, this sort of misalignment is part of the nominal operation of a turbine under normal control conditions, and is a possible trigger for wake meandering.
 
@@ -458,7 +456,7 @@ Alternative methods of detecting the wake centers have been explored in the lite
 \begin{figure}[h]
   \centering
   \includegraphics[width=\textwidth]{figs/wakeCenter_byRange_20240927.pdf}
-  \caption{Detected wake centers showing Guassian fit against momentum deficit. Blue lines indicate momentum deficit estimated from lidar scans, dashed line shows the fit Gaussian profile, point marker is is the detected wake center $\mu/D$. \comment{add $R^2$ value to each supblot}}
+  \caption{Detected wake centers showing Guassian fit against momentum deficit. Blue lines indicate momentum deficit estimated from lidar scans, dashed line shows the fit Gaussian profile, point marker is is the detected wake center $\mu/D$.}
   \label{fig:wakeCenterByRange}
 \end{figure}
 
@@ -482,7 +480,6 @@ Positive bias of $\mu/D$ in the near wake is not easily corrected, and leads to 
 
 Wake meandering combines the downstream advection of $\mu$ by the mean flow and turbulent structures in the wake.
 Trajectories of $\mu$ throuhgout the measurement domain are shown in \cref{fig:centerDistributions} (left) for several times in the data set.
-The trajectories all show the positive bias of $\mu$ in the near wake and then tend toward negative values of $y$ as the range (downstream distance) increases.
 The meander is also evident in the trajectories as a local tendency back toward positive values of $y$.
 The amplitdues of these meandering structures also tend to increase as they advect downstream.
 Kernel density estimates of wake center locations are shown in \cref{fig:centerDistributions} (right), highlighting the tendency of the $\mu$ to spread out at greater streamwise distances.
@@ -510,7 +507,8 @@ $L=512$ samples is the number of points in the FFT
 $N=1,024$ is the length of each segment,
 $\mu_k(n)$ is the $k$-th segment of the time series. 
 A uniform window function is applied to each segment in the calculation of the PSDs.
-The frequency range for all spectra in the current work have been normalized with the average inflow velocity recorded by the met towers, $U_\infty$, and the turbine's rotor diameter, $D$, as $f_{St} = f * D / U_\infty$
+The reduced frequency, $f_s = f D / U_\infty$, is normalized by considering the average inflow velocity recorded by the met towers, $U_\infty$, and the turbine's rotor diameter, $D$. 
+% Reduced frequencies are used consistently across all spectra in this work.
 
 \begin{figure}[htbp]
   \centering
@@ -520,7 +518,7 @@ The frequency range for all spectra in the current work have been normalized wit
   \begin{subfigure}[b]{0.48\columnwidth}
     \includegraphics[width=\columnwidth]{figs/wake_center_premult_20240927.pdf}
   \end{subfigure}
-  \caption{PSDs (left) and premultiplied spectra (right) of detected wake centers from the lidar data at selected downstream distances. \comment{fix vertical axis label for premult spectra}}
+  \caption{PSDs (left) and premultiplied spectra (right) of detected wake centers from the lidar data at selected downstream distances.}
   \label{fig:lidarSpec}
 \end{figure}
 
@@ -544,7 +542,7 @@ In all but two outlier cases, the POD meets the 90\% TKE threshold with a maximu
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.6\textwidth]{figs/20240923.AWAKEN.cumLamNorm.png}
-  \caption{The distribution of cumulative summations of eigenvalues associated with each case. Including }
+  \caption{The distribution of cumulative TKE described by the POD eigenvalues for the collection of 65 cases.}
   \label{fig:cumLamNorm}
 \end{figure}
 
@@ -561,7 +559,8 @@ Researchers include colorbars with each mode for completeness, although the unit
 \end{figure}
 
 \begin{table}[]
-  \caption{Description of POD mode structure, periodicity, and associated eigenvalue.}
+  \caption{Description of POD mode structure, periodicity, and associated eigenvalue. \comment{populate eigenvalues in table}}
+  \label{tab:pod_modes}
   \begin{tabular}{clcp{8cm}}
   Mode, $i$ & Structure     & Eigenvalue, $\lambda_i$ & Description \\
   \hline
@@ -583,7 +582,7 @@ Researchers include colorbars with each mode for completeness, although the unit
   \end{tabular}
 \end{table}
 
-The zeroth mode, $\phi_0$, represents the mean flow, capturing the characteristic momentum deficit in the wind turbine wake (see Table~\ref{tab:pod_modes}).
+The zeroth mode, $\phi_0$, represents the mean flow, capturing the characteristic momentum deficit in the wind turbine wake (see \cref{tab:pod_modes}).
 Modes $\phi_1$ through $\phi_{14}$ describe coherent wake structures ranked by their contributions to the lidar scans.
 The first mode, $\phi_1$, accounts for 20\% to 8\% of the turbulent kinetic energy (TKE) and primarily describes lateral shifts in the wake, crucial for wake meandering.
 Mode $\phi_2$ represents a full oscillation in the streamwise ($x$) direction and a half oscillation in the transverse ($y$) direction, reflecting large streamwise wake variations.
@@ -594,14 +593,14 @@ Mode $\phi_4$ exhibits significant azimuthal asymmetry, complicating direct inte
 In contrast, $\phi_5$ is symmetric, describing a full oscillation in $x$ and possibly reflecting vertical wake meandering.
 Mode $\phi_9$ describes two full periods in $x$, further illustrating the complexity of higher-order structures.
 
-Following \cref{eq:PODset}, we reconstruct the flow field using 16,278 unique subsets including between 3 to 14 POD modes in addition to the mode descibing the mean flow ($\phi_0$).
+Following \cref{eq:PODset}, we reconstruct the flow field using 16,278 unique subsets including between 3 to 14 POD modes in addition to $\phi_0$ representing the mean flow.
 Figure~\ref{fig:modesPerRom} shows the combinations, ranging from ROMs with only three turbulent modes and $\phi_0$ on the right, to those incorporating more modes on the right.
 Each reconstructed wake profile was fitted to a Gaussian function (Equation~\ref{eq:gaussfit}) to estimate the lateral wake center, $\hat{\mu}$.
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=\textwidth]{figs/modesPerRom_20240828.png}
-  \caption{Combination tree indicating which modes are contained in any given ROM. Modes are indicated by the colored regions, and their absence is shown in white. \comment{change cbar label}}
+  \caption{Combination tree indicating which modes are contained in any given ROM. Modes are indicated by the colored regions, and their absence is shown in white.}
   \label{fig:modesPerRom}
 \end{figure}
 
@@ -615,7 +614,7 @@ Coherence, defined in Equation~\ref{eq:coh}, quantifies the similarity between w
 Here, coherence $C_{\mu \hat{\mu}}(f, x)$ measures the similarity of wake center dynamics at frequency $f$.
 A value of $C_{\mu \hat{\mu}}(f, x) = 1$ indicates a perfect match between PSDs, while $C_{\mu \hat{\mu}}(f, x) = 0$ indicates no match.
 
-PSDs of wake centers show better agreement at lower frequencies ($f_s < St_{in}$), which the POD modes in ROMs capture more accurately.
+PSDs of wake centers tend to show better agreement at lower frequencies ($f_s < St_{in}$), which the POD modes in ROMs capture more accurately.
 Coherence decreases at higher frequencies, but because wake meandering is predominantly a low-frequency phenomenon, this reduction in coherence at higher $f_s$ is acceptable for the purposes of this study.
 Figure~\ref{fig:bestWorstSpectra} highlights the average coherence across the full frequency range for several cases.
 Good agreement between $S_{\mu\mu}$ and $S_{\hat{\mu}\hat{\mu}}$ is observed, particularly for $x/D > 4$.
@@ -672,19 +671,20 @@ The distributions in \cref{fig:RangeMeanCoherence} (right) show that some ROMs w
   \begin{subfigure}[b]{0.49\columnwidth}
     \includegraphics[width=\columnwidth]{figs/meanderCoherenceByNModes_20240927.pdf}
   \end{subfigure}
-  \caption{Frequency and range-averaged coherence between detected wake centers from lidar scans and ROMs considering $f_s \le St_{in}$ Hz (left). Distribution of $\varepsilon$ by the number of modes contained in each ROM (right). \comment{make vertical scales identical}}
+  \caption{Frequency and range-averaged coherence between detected wake centers from lidar scans and ROMs considering $f_s \le St_{in}$ Hz (left). Distribution of $\varepsilon$ by the number of modes contained in each ROM (right).}
   \label{fig:RangeMeanCoherence}
 \end{figure}
 
 To investigate the sensitivity of wake center coherence to POD modes, we use an Analysis of Variance (ANOVA) approach.\cite{sahaiAnalysisVarianceFixed2012}
-We develop a statistical model to decompose the observed coherence metric into contributions from individual modes and their interactions.
+We develop a statistical model to decompose the average coherence into contributions from individual modes and their interactions.
 The model takes the following linear decomposition form, where $\varepsilon$ is the average coherence, a quality metric for each ROM:
 \begin{equation}
 \varepsilon = \overline{\varepsilon} + \sum_{i=1}^{n} \beta_i q_i + \sum_{i<j}^{n} \gamma_{ij} q_i q_j + \xi
 \label{eq:anova}
 \end{equation}
-Here, $\overline{\varepsilon}$ represents the global mean coherence, $\beta_i$ are the main effects of individual modes, and $\gamma_{ij}$ capture the interaction effects between modes.
-The binary variables $q_i$ indicate the presence (1) or absence (0) of each mode, with the constraint that at least three modes must be included. The term $\xi$ represents the residual error.
+Here, $\overline{\varepsilon}$ represents the mean coherence of all 16,278 ROMs per case, $\beta_i$ are the main effects of individual modes, and $\gamma_{ij}$ capture the interaction effects between modes.
+The binary variables $q_i$ indicate the presence (1) or absence (0) of each mode, with the constraint that at least three modes must be included. The term $\xi$ represents the residual error, describing noise not accounted for in the model in \cref{eq:anova}.
+% As shown in \cref{eq:anova}, $\beta_i$ and $\gamma_{ij}$ describe the linear and colinear dependence about the global mean coherence $\overline{\varepsilon}$, considering all 16,278 ROMs per case.
 
 We impose statistical constraints, assuming that both the main effects $\beta_i$ and interaction terms $\gamma_{ij}$ follow a normal distribution with zero mean, and that the residual error $\xi$ follows a normal distribution.
 The goal is to estimate the coefficients $\beta_i$ and $\gamma_{ij}$ that minimize the residual error and provide insight into how modes and their combinations influence wake center coherence.
@@ -693,8 +693,8 @@ This approach allows for a comprehensive sensitivity analysis, capturing the com
 \Cref{fig:anovaCaseStudy} (right) shows the main effects $\beta_i$ of each mode for the case beginning at 2023-09-04 10:30 UTC, the same case used to illustrate the POD modes above.
 One key finding illustrated by this figure is that the importance of each mode does not decay monotonically with the mode index.
 This indicates that although certain modes may represent more TKE in the full basis, they do not necessarily have a greater impact on wake meandering.
+Instead, the modes that exhibit asymmetrical structure across the wake centerline also tend to have the largest values of $\beta_i$.
 The magnitude of the mode coefficients is small, $\beta \lesssim 0.1$, due to the bounded range of the average ROM coherence, $0.3 < \varepsilon < 0.55$.
-As shown in \cref{eq:anova}, $\beta_i$ and $\gamma_{ij}$ describe the linear and colinear dependence about the global mean coherence $\overline{\varepsilon}$, considering all 16,278 ROMs per case.
 
 \begin{figure}[htbp]
   \centering
@@ -704,13 +704,13 @@ As shown in \cref{eq:anova}, $\beta_i$ and $\gamma_{ij}$ describe the linear and
   \begin{subfigure}[b]{0.39\columnwidth}
     \includegraphics[scale=0.84]{figs/20241203.modeInteractionHeatMap.pdf}
   \end{subfigure}
-  \caption{Main effect $\beta_i$ of each mode and interaction effects $\gamma_{ij}$ between modes building the linear system that describes the dependence of average coherence on the presence or absence of each mode. \comment{Does gamma only show absolute values??}}
+  \caption{Main effect $\beta_i$ of each mode and interaction effects $\gamma_{ij}$ between modes building the linear system that describes the dependence of average coherence on the presence or absence of each mode. \comment{Check that $\gamma$ is not showin only absolute values. Some of the interaction effects should be negative.}}
   \label{fig:anovaCaseStudy}
 \end{figure}
 
 To illustrate the importance of each mode more completely, \cref{fig:vareps_by_modeBeta} splits the full distribution of $\varepsilon$ (in white) into subsets of ROMs that include (blue) or exclude (orange) each of the first 14 modes.
 Modes with the strongest impact on $\varepsilon$ (i.e., modes 1, 2, 3) show the greatest separation between distributions of ROMs that include or exclude $\phi_i$.
-Moreover, modes that have the greatest positive impact on $\varepsilon$, contributing most to the accurate description of wake meandering in the ROM, $\hat{\mu}$, always show distributions with means greater for ROMs that include $\phi_i$ compared to those that exclude $\phi_i$.
+Moreover, ROMs that contain the modes that have the greatest positive impact on $\varepsilon$ always show distributions with means greater for ROMs that that exclude $\phi_i$.
 Conversely, distributions for modes with little influence on $\varepsilon$ (e.g., modes 9, 11, 13) are nearly identical for ROMs that include or exclude the modes.
 \begin{figure}[h]
   \centering
@@ -745,17 +745,17 @@ The range of $\xi$ is relatively small, with a standard deviation of $\sigma_\xi
 \end{figure}
 \Cref{fig:anovaresidual} (right0) also shows that the distributions of $\xi$, aggregated by the number of modes used to compose a ROM, are aapproximately normally distributed.
 Distributions of ANOVA residual appear to be consistently centered around $\xi=0$, except for ROMs with 4 modes where there is a slight negative bias, and ROMs with more than 11 modes for which there is a slight positive bias.
-Recalling that the sample size of ROMs composed with a given number of modes varies (\cref{fig:caseCounts_20240828}), the distributions for ROMs composed with fewer than four or more than 11 modes are not likely to be statistaclly converged.
+Recalling that the sample size of ROMs composed with a given number of modes varies (\cref{fig:caseCounts_20240828}), the distributions for ROMs composed with fewer than four or more than 11 modes are not necessarily statistaclly converged.
 Distributions of ROMs composed with bewteen 6 and 10 modes contain at least 1000 samples, suggesting that they represent distributions of $\xi$ more accurately.
 
-\comment{ADD figure that shows the wake reconstructions and detected wake centers for selected cases. Choose a few datetimes, compare lidar data to overall best and worst cases, the best ROM that require the fewest modes, and the worst ROM with the most modes.}
-To illustrate the range of ROM accuracy, \cref{fig:recWakes} compares wake measurements and detected wake centers from the lidar directlly to the low-order desciptions provided by selected modes.
-Specifically, \cref{fig:recWakes} highlights the ROMs with the maximum and minimum values of $\varepsilon$, that is the ROMs that have wake center dynamics that show the maximum and minimum average correlation with the lidar observations. 
+\comment{Add figure that shows the wake reconstructions and detected wake centers for selected cases. Choose a few datetimes, compare lidar data to overall best and worst cases, the best ROM that require the fewest modes, and the worst ROM with the most modes.}
+% To illustrate the range of ROM accuracy, \cref{fig:recWakes} compares wake measurements and detected wake centers from the lidar directlly to the low-order desciptions provided by selected modes.
+% Specifically, \cref{fig:recWakes} highlights the ROMs with the maximum and minimum values of $\varepsilon$, that is the ROMs that have wake center dynamics that show the maximum and minimum average correlation with the lidar observations. 
 
 Considering the full population of 65 cases considered in this study, \cref{fig:beta_allcases} shows the overall trends of $\beta$ with mode index. 
 The mean profile in blue indicates that the first mode tends to contribute quite strongly to the linear model of $\varepsilon$, with a coefficeint of $\beta_1 = 0.4$.
-In most cases, the mode $\phi_1$ is qualitatively similar to that shown for 2023-09-04 10:30 UTC in \cref{fig:allModes}, exhibiting a strongly antisymettric character along the average wake centerline and a half-period of streawise variation.
-\Cref{fig:beta_allcases} indicates that this mode can account for a huge amount of $\varepsilon$, ranging from a coeffcient of $0.2 \le \beta_1 \le 0.75$, as shown by the pink lines indicating maximum and minimum values.
+In most cases, the mode $\phi_1$ is qualitatively similar to that shown for 2023-09-04 10:30 UTC in \cref{fig:allModes}, exhibiting a strongly antisymmetric character along the average wake centerline and a half-period of streawise variation.
+\Cref{fig:beta_allcases} indicates that this mode can account for a huge amount of $\varepsilon$, ranging from a coefficeint of $0.2 \le \beta_1 \le 0.75$, as shown by the pink lines indicating maximum and minimum values.
 
 The range of $\phi_2$ is even larger, showing a maximum value of$\beta_2=0.72$, similar to that of $\beta_1$, while the minimum value is $\beta_2 = -0.02$, indicating that for some cases, the average correlations $\varepsilon$ is weakly anticorrelated with mode $\phi_2$.
 Similar behaviour is evident for modes $\phi_2$ through $\phi_8$, where at least the modes work against the succesful representation of $\varepsilon$ for several cases. 
@@ -771,7 +771,7 @@ Similar behaviour is evident for modes $\phi_2$ through $\phi_8$, where at least
   \label{fig:beta_allcases}
 \end{figure}
 
-\Cref{fig:beta_allcases} shows (right) the distributions of $\beta_1$ through $\beta_4$ is greater detail as violin plots with markers indicating values for individual cases. 
+\Cref{fig:beta_allcases} (right) shows the distributions of $\beta_1$ through $\beta_4$ is greater detail as violin plots with markers indicating values for individual cases. 
 Overall, the figure suggests a trend of decreasing range of $\beta$ as the mode increases.
 Modes 2, 3, and 5 show what appear to be outlier values extending the range to higher positive values of $\beta$. 
 Mode 1 also appears to have abimodal distribion of $\beta$.
@@ -792,50 +792,47 @@ Because there are only 65 cases in the current study, and those cases span a wid
 The description of multi-colinear dependence of $\varepsilon$ on the modal basis $\phi_i$ has a similar trend. 
 \Cref{fig:gamma_allcases} shows the mean (left) and standard deviation (right) of $\gamma_{ij}$ for the collection of 65 cases.
 Overall, $\phi_1$ has the strongest colinear behvior with the other modes in the basis, with a maximum value of $\overline{\gamma}_{1,2} = 0.29$ and decreasing monotonically with $j$ thereafter.
-The average colinear dependence of higher order modes is even lower, suggesting that the global behavior for $\varepsilon$ may be that a purely linear realationshipo is sufficient for desciption of wake meandering.
+The average colinear dependence of higher order modes is even lower, suggesting that the global behavior for $\varepsilon$ may be that a purely linear relationship is sufficient for desciption of wake meandering.
 The standard deviation of $\sigma_{\gamma_{ij}}$ showns similar trends as the mean, where the largest values are located in the top left, for colinearity between $\phi_1$ and $\phi_2$, decreasing as both $i$ and $j$ increase.
 
-While the average behavior of $\beta$ suggests a monotonic decrease in value mode index, the true relationship is likely more complex.
+While the average behavior of $\beta$ suggests a monotonic decrease in value mode index, the true relationship is likely more complex, and probably depends on the nature of the POD modes (symmetry, sequencing, etc.) representing wake dynamics for each case.
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.7\textwidth]{figs/20241204.lamda_v_beta.pdf}
   \caption{Comparison of POD mode eigenvalues $\lambda_i$ to main effect coefficients $\beta_i$ for all 65 cases.}
   \label{fig:lambda_v_beta}
 \end{figure}
-\Cref{fig:lambda_v_beta} compares the log of the mode eigenvalues, $\log_{10}(\lambda)$ to the main effect coefficients $\beta$, colored by the mode number.
+\Cref{fig:lambda_v_beta} compares the log of the mode eigenvalues, $\log_{10}(\lambda_i)$ to the main effect coefficients $\beta_i$, colored by the mode number.
 Because $\beta_i$ tends toward zero for all cases, while $\lambda_i$ show a wide range of values for each mode, no direct relationship between the two is directly evident in the current data.
 This disparity is thought to arise from the fact that the two variables descirbe related bute different phenomena.
-POD modes describe the variance-maximizing structures in the observational basis, that is the describe the TKE in the measurement domain of the nacelle-mounted scannig lidars---the eigenvalues $\lambda_i$ quantify the TKE each mode represents in the overall budget.
-The main effect coefficients, $\beta_i$ describe the dependence of the streamwise- and reduced frequency-averaged correlation between wake centers estimated by a Gaussian function fit to the observaitonal data and estimates made by a ROM as described by a subset of POD modes.
+POD modes describe the variance-maximizing structures in the observational basis, that is the describe the TKE in the measurement domain of the nacelle-mounted scanning lidars---the eigenvalues $\lambda_i$ quantify the TKE each mode represents in the overall budget.
+The main effect coefficients, $\beta_i$ describe the dependence of the streamwise- and reduced frequency-averaged correlation between wake centers estimated by a Gaussian function fit to the observational data and estimates made by a ROM as described by a subset of POD modes.
 
-\comment{Make a figure that compares the dominant frequency of each mode to the inflow strouhal number for each case. Makers can be colored by the respective $\beta$ coefficient. If there's sufficient evidence that modes with high $\beta$ are correlated somehow, try to connect to MO length or other inflow condition.}
+\comment{Add figure that compares the dominant frequency of each mode to the inflow strouhal number for each case, colored by the respective $\beta$ coefficient. If there's sufficient evidence that modes with high $\beta$ are correlated somehow, try to connect to MO length or other inflow condition.}
 
 
 \section{Conclusions} % (fold)
 \label{sec:Conclusions}
 
 
-This study leverages remote sensing data from nacelle-mounted scanning lidars to examine full-scale wind turbine wake dynamics under varying inflow conditions. 
-By analyzing observational data from nacelle-mounted scanning lidars, we quantify wake meandering using snapshot POD and spectral methods. 
-We find that the wake center`s meandering statistics differ across test cases, revealing insights into the spatiotemporal and spectral characteristics of wake dynamics.
-
-Our analysis of POD modes challenges conventional descriptions of wake meanding and the expected relationships with the atmospheric inflow. 
-While low-order modes represent the largest, most energetic turbulent structures, they do not necessarily contribute most to accurate wake meandering representations. 
+This study leverages remote sensing data from nacelle-mounted scanning lidars to quantify wake meandering using snapshot POD and spectral methods, finding that the wake center`s meandering statistics differ across test cases, revealing insights into the spatiotemporal and spectral characteristics of wake dynamics.
+Our analysis of POD modes challenges conventional descriptions of wake meandering and the expected relationships with the atmospheric inflow. 
+While low-order modes represent the largest, most energetic turbulent structures, they do not necessarily contribute most to the accurate representation of wake meandering. 
 In fact, some modes show no correlation with meandering dynamics, while others distort or even detract from the accurate representation of wake meandering. 
 This suggests that certain modes are irrelevant to wake meandering or are only relevant to specific regions.
 
-\comment{Although spectral analysis of the mode coefficients correlated with meandering does not align with the expected Strouhal number relationships, the findings highlight important complexities. }
-Specifically, wake meandering models based on either passive tracer dynamics or interactions between coherent structures fail to fully capture the observed dynamics. 
-This discrepancy may stem from insufficient resolution of meandering structures in the measurements or a more intricate relationship between wake meandering and turbulence than current models suggest. 
+% \comment{Although spectral analysis of the mode coefficients correlated with meandering does not align with the expected Strouhal number relationships, the findings highlight important complexities. }
+% Specifically, wake meandering models based on either passive tracer dynamics or interactions between coherent structures fail to fully capture the observed dynamics. 
+% This discrepancy may stem from insufficient resolution of meandering structures in the measurements or a more intricate relationship between wake meandering and turbulence than current models suggest. 
 
-Althoguh quantitatively different from one case to another, the POD modes describing wake dynanics are qualitatively quite similar. 
+Althoguh quantitatively different from one case to another, the POD modes describing wake dynamics are qualitatively quite similar. 
 This similarity suggests the existence of a semi-universal basis of functions or structures that describe wind turbine wakes over a wide range of atmospheric conditions.
-We suspect that a low-order manifold exists that efficiently descirbes wake aerodynamics and wake meandering in a way that can be comuptationally efficient to represent and could benefit steady-state and engineering wind turbine and wind plant wake models/ 
+We suspect that a low-order manifold exists that can efficiently describe wake aerodynamics and wake meandering in a way that can be computationallly efficient to represent and could benefit steady-state and engineering wind turbine and wind plant wake models.
 
-While this study is essentailly a phenomenological desciption of wake meandering and its relationship with turbulent structures describing the wake, it is not a dynamic or predictive model.
+While this study is essentailly a phenomenological description of wake meandering and its relationship with turbulent structures describing the wake, it is not a dynamic or predictive model.
 One of the main limitations in our current approach is that changes in the azimuthal position of the wake from yaw activity of the turbine are not easily separated from the underlying wake aerodynamics.
-To bridge this gap, a similar workflow using the classical POD or dynamic mode decomposition could be applied to the timeseries of estiamted wake centers.
-By considering the additional dynamics of the turbulent atmospheric inflow and the operating state of turbine, a complete dynamical model for wake centerline trajectories, including wake meandering should be within reach.
+To bridge this gap, a similar workflow using the classical POD or dynamic mode decomposition could be applied to the timeseries of estimated wake centers.
+By considering the additional dynamics of the turbulent atmospheric inflow and the operating state of the turbine, a complete dynamical model for wake centerline trajectories, including wake meandering should be within reach.
 
 
 \section*{Acknowledgements}

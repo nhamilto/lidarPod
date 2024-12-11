@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.28)  11 DEC 2024 10:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.28)  11 DEC 2024 11:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -382,168 +382,183 @@ Package pdftex.def Info: figs/20241206.RAAW.schem.pdf  used on input line 275.
 <figs/20240911.AWAKEN.power.curve.cases.png, id=178, 414.8298pt x 244.2726pt>
 File: figs/20240911.AWAKEN.power.curve.cases.png Graphic file (type png)
 <use figs/20240911.AWAKEN.power.curve.cases.png>
-Package pdftex.def Info: figs/20240911.AWAKEN.power.curve.cases.png  used on input line 340.
+Package pdftex.def Info: figs/20240911.AWAKEN.power.curve.cases.png  used on input line 338.
 (pdftex.def)             Requested size: 304.19714pt x 179.13007pt.
- [11] [12 <./figs/20240911.AWAKEN.power.curve.cases.png>]
-<figs/20241205.inflowStats.pdf, id=186, 570.40446pt x 281.05898pt>
-File: figs/20241205.inflowStats.pdf Graphic file (type pdf)
-<use figs/20241205.inflowStats.pdf>
-Package pdftex.def Info: figs/20241205.inflowStats.pdf  used on input line 364.
-(pdftex.def)             Requested size: 468.0pt x 230.61136pt.
-<figs/20240924.AWAKEN.inflow.WS.TS.ST.png, id=187, 714.5094pt x 172.4844pt>
+ [11]
+<figs/20240924.AWAKEN.inflow.WS.TS.ST.png, id=182, 714.5094pt x 172.4844pt>
 File: figs/20240924.AWAKEN.inflow.WS.TS.ST.png Graphic file (type png)
 <use figs/20240924.AWAKEN.inflow.WS.TS.ST.png>
-Package pdftex.def Info: figs/20240924.AWAKEN.inflow.WS.TS.ST.png  used on input line 371.
+Package pdftex.def Info: figs/20240924.AWAKEN.inflow.WS.TS.ST.png  used on input line 369.
 (pdftex.def)             Requested size: 468.0pt x 112.97679pt.
- [13 <./figs/20241205.inflowStats.pdf> <./figs/20240924.AWAKEN.inflow.WS.TS.ST.png>]
-<figs/U.lidar.20230811.103025.png, id=244, 342.078pt x 172.4844pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12 <./figs/20240911.AWAKEN.power.curve.cases.png>]
+<figs/U.lidar.20230811.103025.png, id=187, 342.078pt x 172.4844pt>
 File: figs/U.lidar.20230811.103025.png Graphic file (type png)
 <use figs/U.lidar.20230811.103025.png>
-Package pdftex.def Info: figs/U.lidar.20230811.103025.png  used on input line 390.
+Package pdftex.def Info: figs/U.lidar.20230811.103025.png  used on input line 388.
 (pdftex.def)             Requested size: 224.638pt x 113.27156pt.
-<figs/U.lidar.20230904.103035.png, id=245, 342.078pt x 172.4844pt>
+<figs/U.lidar.20230904.103035.png, id=188, 342.078pt x 172.4844pt>
 File: figs/U.lidar.20230904.103035.png Graphic file (type png)
 <use figs/U.lidar.20230904.103035.png>
-Package pdftex.def Info: figs/U.lidar.20230904.103035.png  used on input line 393.
+Package pdftex.def Info: figs/U.lidar.20230904.103035.png  used on input line 391.
 (pdftex.def)             Requested size: 224.638pt x 113.27156pt.
-<figs/U.lidar.20230919.063055.png, id=246, 339.669pt x 172.4844pt>
+<figs/U.lidar.20230919.063055.png, id=189, 339.669pt x 172.4844pt>
 File: figs/U.lidar.20230919.063055.png Graphic file (type png)
 <use figs/U.lidar.20230919.063055.png>
-Package pdftex.def Info: figs/U.lidar.20230919.063055.png  used on input line 397.
+Package pdftex.def Info: figs/U.lidar.20230919.063055.png  used on input line 395.
 (pdftex.def)             Requested size: 224.638pt x 114.0743pt.
-<figs/U.lidar.20231025.063015.png, id=247, 338.7054pt x 172.4844pt>
+<figs/U.lidar.20231025.063015.png, id=190, 338.7054pt x 172.4844pt>
 File: figs/U.lidar.20231025.063015.png Graphic file (type png)
 <use figs/U.lidar.20231025.063015.png>
-Package pdftex.def Info: figs/U.lidar.20231025.063015.png  used on input line 400.
+Package pdftex.def Info: figs/U.lidar.20231025.063015.png  used on input line 398.
 (pdftex.def)             Requested size: 224.638pt x 114.39539pt.
-<figs/crossSection.lidar.20230811.103025.png, id=248, 333.8874pt x 220.1826pt>
+<figs/crossSection.lidar.20230811.103025.png, id=191, 333.8874pt x 220.1826pt>
 File: figs/crossSection.lidar.20230811.103025.png Graphic file (type png)
 <use figs/crossSection.lidar.20230811.103025.png>
-Package pdftex.def Info: figs/crossSection.lidar.20230811.103025.png  used on input line 413.
+Package pdftex.def Info: figs/crossSection.lidar.20230811.103025.png  used on input line 411.
 (pdftex.def)             Requested size: 224.638pt x 148.13976pt.
-<figs/crossSection.lidar.20230904.103035.png, id=249, 340.1508pt x 220.1826pt>
+<figs/crossSection.lidar.20230904.103035.png, id=192, 340.1508pt x 220.1826pt>
 File: figs/crossSection.lidar.20230904.103035.png Graphic file (type png)
 <use figs/crossSection.lidar.20230904.103035.png>
-Package pdftex.def Info: figs/crossSection.lidar.20230904.103035.png  used on input line 416.
+Package pdftex.def Info: figs/crossSection.lidar.20230904.103035.png  used on input line 414.
 (pdftex.def)             Requested size: 224.638pt x 145.41167pt.
-<figs/crossSection.lidar.20230919.103116.png, id=250, 340.1508pt x 220.1826pt>
+<figs/crossSection.lidar.20230919.103116.png, id=193, 340.1508pt x 220.1826pt>
 File: figs/crossSection.lidar.20230919.103116.png Graphic file (type png)
 <use figs/crossSection.lidar.20230919.103116.png>
-Package pdftex.def Info: figs/crossSection.lidar.20230919.103116.png  used on input line 420.
+Package pdftex.def Info: figs/crossSection.lidar.20230919.103116.png  used on input line 418.
 (pdftex.def)             Requested size: 224.638pt x 145.41167pt.
-<figs/crossSection.lidar.20231025.063015.png, id=251, 340.1508pt x 220.1826pt>
+<figs/crossSection.lidar.20231025.063015.png, id=194, 340.1508pt x 220.1826pt>
 File: figs/crossSection.lidar.20231025.063015.png Graphic file (type png)
 <use figs/crossSection.lidar.20231025.063015.png>
-Package pdftex.def Info: figs/crossSection.lidar.20231025.063015.png  used on input line 423.
+Package pdftex.def Info: figs/crossSection.lidar.20231025.063015.png  used on input line 421.
 (pdftex.def)             Requested size: 224.638pt x 145.41167pt.
- [14 <./figs/U.lidar.20230811.103025.png> <./figs/U.lidar.20230904.103035.png> <./figs/U.lidar.20230919.063055.png> <./figs/U.lidar.20231025.063015.png>]
-<figs/yawCorrectedWakeCenter_20240925.pdf, id=259, 387.40985pt x 220.35558pt>
+ [13 <./figs/20240924.AWAKEN.inflow.WS.TS.ST.png>]
+<figs/yawCorrectedWakeCenter_20240925.pdf, id=200, 387.40985pt x 220.35558pt>
 File: figs/yawCorrectedWakeCenter_20240925.pdf Graphic file (type pdf)
 <use figs/yawCorrectedWakeCenter_20240925.pdf>
-Package pdftex.def Info: figs/yawCorrectedWakeCenter_20240925.pdf  used on input line 450.
+Package pdftex.def Info: figs/yawCorrectedWakeCenter_20240925.pdf  used on input line 448.
 (pdftex.def)             Requested size: 234.0pt x 133.09529pt.
- [15 <./figs/crossSection.lidar.20230811.103025.png> <./figs/crossSection.lidar.20230904.103035.png> <./figs/crossSection.lidar.20230919.103116.png> <./figs/crossSection.lidar.20231025.063015.png>]
-<figs/wakeCenter_byRange_20240927.pdf, id=267, 714.68802pt x 206.80449pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/wakeCenter_byRange_20240927.pdf, id=201, 714.68802pt x 206.80449pt>
 File: figs/wakeCenter_byRange_20240927.pdf Graphic file (type pdf)
 <use figs/wakeCenter_byRange_20240927.pdf>
-Package pdftex.def Info: figs/wakeCenter_byRange_20240927.pdf  used on input line 460.
+Package pdftex.def Info: figs/wakeCenter_byRange_20240927.pdf  used on input line 458.
 (pdftex.def)             Requested size: 468.0pt x 135.42479pt.
- [16 <./figs/yawCorrectedWakeCenter_20240925.pdf> <./figs/wakeCenter_byRange_20240927.pdf>]
-<figs/lidarScan_700_wakeCenters_20240925.png, id=344, 342.078pt x 172.4844pt>
+[14 <./figs/U.lidar.20230811.103025.png> <./figs/U.lidar.20230904.103035.png> <./figs/U.lidar.20230919.063055.png> <./figs/U.lidar.20231025.063015.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/lidarScan_700_wakeCenters_20240925.png, id=209, 342.078pt x 172.4844pt>
 File: figs/lidarScan_700_wakeCenters_20240925.png Graphic file (type png)
 <use figs/lidarScan_700_wakeCenters_20240925.png>
-Package pdftex.def Info: figs/lidarScan_700_wakeCenters_20240925.png  used on input line 474.
+Package pdftex.def Info: figs/lidarScan_700_wakeCenters_20240925.png  used on input line 472.
 (pdftex.def)             Requested size: 229.32257pt x 115.63501pt.
-<figs/lidarScan_-70_wakeCenters_20240925.png, id=345, 342.078pt x 172.4844pt>
+<figs/lidarScan_-70_wakeCenters_20240925.png, id=210, 342.078pt x 172.4844pt>
 File: figs/lidarScan_-70_wakeCenters_20240925.png Graphic file (type png)
 <use figs/lidarScan_-70_wakeCenters_20240925.png>
-Package pdftex.def Info: figs/lidarScan_-70_wakeCenters_20240925.png  used on input line 477.
+Package pdftex.def Info: figs/lidarScan_-70_wakeCenters_20240925.png  used on input line 475.
 (pdftex.def)             Requested size: 229.32257pt x 115.63501pt.
-<figs/wake_center_advection_20240925.pdf, id=346, 352.76544pt x 208.9958pt>
+[15 <./figs/crossSection.lidar.20230811.103025.png> <./figs/crossSection.lidar.20230904.103035.png> <./figs/crossSection.lidar.20230919.103116.png> <./figs/crossSection.lidar.20231025.063015.png>]
+<figs/wake_center_advection_20240925.pdf, id=218, 352.76544pt x 208.9958pt>
 File: figs/wake_center_advection_20240925.pdf Graphic file (type pdf)
 <use figs/wake_center_advection_20240925.pdf>
-Package pdftex.def Info: figs/wake_center_advection_20240925.pdf  used on input line 493.
+Package pdftex.def Info: figs/wake_center_advection_20240925.pdf  used on input line 490.
 (pdftex.def)             Requested size: 266.76343pt x 158.04758pt.
-<figs/wake_center_kde_20240925.pdf, id=347, 271.88074pt x 208.94781pt>
+<figs/wake_center_kde_20240925.pdf, id=219, 271.88074pt x 208.94781pt>
 File: figs/wake_center_kde_20240925.pdf Graphic file (type pdf)
 <use figs/wake_center_kde_20240925.pdf>
-Package pdftex.def Info: figs/wake_center_kde_20240925.pdf  used on input line 496.
+Package pdftex.def Info: figs/wake_center_kde_20240925.pdf  used on input line 493.
 (pdftex.def)             Requested size: 196.55914pt x 151.06082pt.
- [17 <./figs/lidarScan_700_wakeCenters_20240925.png> <./figs/lidarScan_-70_wakeCenters_20240925.png>]
-<figs/wake_center_spectra_20240927.pdf, id=353, 280.72606pt x 168.50955pt>
+ [16 <./figs/yawCorrectedWakeCenter_20240925.pdf> <./figs/wakeCenter_byRange_20240927.pdf>]
+<figs/wake_center_spectra_20240927.pdf, id=296, 280.72606pt x 168.50955pt>
 File: figs/wake_center_spectra_20240927.pdf Graphic file (type pdf)
 <use figs/wake_center_spectra_20240927.pdf>
-Package pdftex.def Info: figs/wake_center_spectra_20240927.pdf  used on input line 518.
+Package pdftex.def Info: figs/wake_center_spectra_20240927.pdf  used on input line 516.
 (pdftex.def)             Requested size: 224.638pt x 134.84381pt.
-<figs/wake_center_premult_20240927.pdf, id=354, 279.2928pt x 168.50955pt>
+<figs/wake_center_premult_20240927.pdf, id=297, 279.2928pt x 168.50955pt>
 File: figs/wake_center_premult_20240927.pdf Graphic file (type pdf)
 <use figs/wake_center_premult_20240927.pdf>
-Package pdftex.def Info: figs/wake_center_premult_20240927.pdf  used on input line 521.
+Package pdftex.def Info: figs/wake_center_premult_20240927.pdf  used on input line 519.
 (pdftex.def)             Requested size: 224.638pt x 135.53806pt.
- [18 <./figs/wake_center_advection_20240925.pdf> <./figs/wake_center_kde_20240925.pdf> <./figs/wake_center_spectra_20240927.pdf> <./figs/wake_center_premult_20240927.pdf>]
-<figs/20240923.AWAKEN.cumLamNorm.png, id=474, 353.1594pt x 208.6194pt>
+ [17 <./figs/lidarScan_700_wakeCenters_20240925.png> <./figs/lidarScan_-70_wakeCenters_20240925.png> <./figs/wake_center_advection_20240925.pdf> <./figs/wake_center_kde_20240925.pdf>]
+<figs/20240923.AWAKEN.cumLamNorm.png, id=362, 353.1594pt x 208.6194pt>
 File: figs/20240923.AWAKEN.cumLamNorm.png Graphic file (type png)
 <use figs/20240923.AWAKEN.cumLamNorm.png>
-Package pdftex.def Info: figs/20240923.AWAKEN.cumLamNorm.png  used on input line 546.
+Package pdftex.def Info: figs/20240923.AWAKEN.cumLamNorm.png  used on input line 544.
 (pdftex.def)             Requested size: 280.80286pt x 165.87709pt.
- [19 <./figs/20240923.AWAKEN.cumLamNorm.png>]
-<figs/20240826.AWAKEN.all.modes.png, id=480, 709.6914pt x 569.0058pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18 <./figs/wake_center_spectra_20240927.pdf> <./figs/wake_center_premult_20240927.pdf>]
+<figs/20240826.AWAKEN.all.modes.png, id=423, 709.6914pt x 569.0058pt>
 File: figs/20240826.AWAKEN.all.modes.png Graphic file (type png)
 <use figs/20240826.AWAKEN.all.modes.png>
-Package pdftex.def Info: figs/20240826.AWAKEN.all.modes.png  used on input line 558.
+Package pdftex.def Info: figs/20240826.AWAKEN.all.modes.png  used on input line 556.
 (pdftex.def)             Requested size: 468.0pt x 375.22374pt.
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 563.
+               Default added (so using `tbp') on input line 561.
 
-
-LaTeX Warning: Reference `tab:pod_modes' on page 20 undefined on input line 586.
-
-[20 <./figs/20240826.AWAKEN.all.modes.png>]
-<figs/modesPerRom_20240828.png, id=485, 513.5988pt x 183.5658pt>
+[19 <./figs/20240923.AWAKEN.cumLamNorm.png>]
+<figs/modesPerRom_20240828.png, id=429, 513.5988pt x 183.5658pt>
 File: figs/modesPerRom_20240828.png Graphic file (type png)
 <use figs/modesPerRom_20240828.png>
-Package pdftex.def Info: figs/modesPerRom_20240828.png  used on input line 603.
+Package pdftex.def Info: figs/modesPerRom_20240828.png  used on input line 602.
 (pdftex.def)             Requested size: 468.0pt x 167.2692pt.
- [21] [22 <./figs/modesPerRom_20240828.png>]
-<figs/20241203.romSpectra.pdf, id=494, 285.66725pt x 185.69376pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20 <./figs/20240826.AWAKEN.all.modes.png>] [21]
+<figs/20241203.romSpectra.pdf, id=438, 285.66725pt x 185.69376pt>
 File: figs/20241203.romSpectra.pdf Graphic file (type pdf)
 <use figs/20241203.romSpectra.pdf>
-Package pdftex.def Info: figs/20241203.romSpectra.pdf  used on input line 632.
+Package pdftex.def Info: figs/20241203.romSpectra.pdf  used on input line 631.
 (pdftex.def)             Requested size: 229.32257pt x 149.07089pt.
-<figs/20241203.romCoherenceSpectra.pdf, id=495, 285.66725pt x 185.69376pt>
+<figs/20241203.romCoherenceSpectra.pdf, id=439, 285.66725pt x 185.69376pt>
 File: figs/20241203.romCoherenceSpectra.pdf Graphic file (type pdf)
 <use figs/20241203.romCoherenceSpectra.pdf>
-Package pdftex.def Info: figs/20241203.romCoherenceSpectra.pdf  used on input line 635.
+Package pdftex.def Info: figs/20241203.romCoherenceSpectra.pdf  used on input line 634.
 (pdftex.def)             Requested size: 229.32257pt x 149.07089pt.
-<figs/20240927.AWAKEN.averageCoherence.png, id=496, 582.978pt x 211.5102pt>
+<figs/20240927.AWAKEN.averageCoherence.png, id=440, 582.978pt x 211.5102pt>
 File: figs/20240927.AWAKEN.averageCoherence.png Graphic file (type png)
 <use figs/20240927.AWAKEN.averageCoherence.png>
-Package pdftex.def Info: figs/20240927.AWAKEN.averageCoherence.png  used on input line 649.
+Package pdftex.def Info: figs/20240927.AWAKEN.averageCoherence.png  used on input line 648.
 (pdftex.def)             Requested size: 421.19714pt x 152.81651pt.
-<figs/20240925.AWAKEN.meanMeanderingCoherence.png, id=497, 581.5326pt x 211.5102pt>
+<figs/20240925.AWAKEN.meanMeanderingCoherence.png, id=441, 581.5326pt x 211.5102pt>
 File: figs/20240925.AWAKEN.meanMeanderingCoherence.png Graphic file (type png)
 <use figs/20240925.AWAKEN.meanMeanderingCoherence.png>
-Package pdftex.def Info: figs/20240925.AWAKEN.meanMeanderingCoherence.png  used on input line 652.
+Package pdftex.def Info: figs/20240925.AWAKEN.meanMeanderingCoherence.png  used on input line 651.
 (pdftex.def)             Requested size: 421.19714pt x 153.20056pt.
-<figs/20241204.vareps_by_ROM.pdf, id=498, 281.41951pt x 172.6287pt>
+ [22 <./figs/modesPerRom_20240828.png> <./figs/20241203.romSpectra.pdf> <./figs/20241203.romCoherenceSpectra.pdf>]
+<figs/20241204.vareps_by_ROM.pdf, id=515, 281.41951pt x 172.6287pt>
 File: figs/20241204.vareps_by_ROM.pdf Graphic file (type pdf)
 <use figs/20241204.vareps_by_ROM.pdf>
-Package pdftex.def Info: figs/20241204.vareps_by_ROM.pdf  used on input line 670.
+Package pdftex.def Info: figs/20241204.vareps_by_ROM.pdf  used on input line 669.
 (pdftex.def)             Requested size: 229.32257pt x 140.67664pt.
-<figs/meanderCoherenceByNModes_20240927.pdf, id=499, 281.41951pt x 172.6287pt>
+<figs/meanderCoherenceByNModes_20240927.pdf, id=516, 281.41951pt x 172.6287pt>
 File: figs/meanderCoherenceByNModes_20240927.pdf Graphic file (type pdf)
 <use figs/meanderCoherenceByNModes_20240927.pdf>
-Package pdftex.def Info: figs/meanderCoherenceByNModes_20240927.pdf  used on input line 673.
+Package pdftex.def Info: figs/meanderCoherenceByNModes_20240927.pdf  used on input line 672.
 (pdftex.def)             Requested size: 229.32257pt x 140.67664pt.
- [23 <./figs/20241203.romSpectra.pdf> <./figs/20241203.romCoherenceSpectra.pdf>] [24 <./figs/20240927.AWAKEN.averageCoherence.png> <./figs/20240925.AWAKEN.meanMeanderingCoherence.png>]
-<figs/20241203.modeEffectBar.pdf, id=577, 279.88065pt x 172.6287pt>
+ [23 <./figs/20240927.AWAKEN.averageCoherence.png> <./figs/20240925.AWAKEN.meanMeanderingCoherence.png>] [24 <./figs/20241204.vareps_by_ROM.pdf> <./figs/meanderCoherenceByNModes_20240927.pdf>]
+<figs/20241203.modeEffectBar.pdf, id=590, 279.88065pt x 172.6287pt>
 File: figs/20241203.modeEffectBar.pdf Graphic file (type pdf)
 <use figs/20241203.modeEffectBar.pdf>
 Package pdftex.def Info: figs/20241203.modeEffectBar.pdf  used on input line 702.
 (pdftex.def)             Requested size: 251.89024pt x 155.36436pt.
-<figs/20241203.modeInteractionHeatMap.pdf, id=578, 246.1523pt x 193.35255pt>
+<figs/20241203.modeInteractionHeatMap.pdf, id=591, 246.1523pt x 193.35255pt>
 File: figs/20241203.modeInteractionHeatMap.pdf Graphic file (type pdf)
 <use figs/20241203.modeInteractionHeatMap.pdf>
 Package pdftex.def Info: figs/20241203.modeInteractionHeatMap.pdf  used on input line 705.
@@ -553,16 +568,15 @@ Overfull \hbox (24.2468pt too wide) in paragraph at lines 705--706
  [][] 
  []
 
-<figs/20241203.vareps.allmodes.pdf, id=579, 564.8195pt x 490.09476pt>
+<figs/20241203.vareps.allmodes.pdf, id=592, 564.8195pt x 490.09476pt>
 File: figs/20241203.vareps.allmodes.pdf Graphic file (type pdf)
 <use figs/20241203.vareps.allmodes.pdf>
 Package pdftex.def Info: figs/20241203.vareps.allmodes.pdf  used on input line 717.
 (pdftex.def)             Requested size: 468.0pt x 406.08307pt.
-[25 <./figs/20241204.vareps_by_ROM.pdf> <./figs/meanderCoherenceByNModes_20240927.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/20241203.vareps.highGammaPairs.pdf, id=649, 564.8195pt x 128.38339pt>
+<figs/20241203.vareps.highGammaPairs.pdf, id=593, 564.8195pt x 128.38339pt>
 File: figs/20241203.vareps.highGammaPairs.pdf Graphic file (type pdf)
 <use figs/20241203.vareps.highGammaPairs.pdf>
 Package pdftex.def Info: figs/20241203.vareps.highGammaPairs.pdf  used on input line 728.
@@ -570,73 +584,62 @@ Package pdftex.def Info: figs/20241203.vareps.highGammaPairs.pdf  used on input 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/20241205.residualHist.pdf, id=650, 284.77328pt x 185.3644pt>
+<figs/20241205.residualHist.pdf, id=594, 284.77328pt x 185.3644pt>
 File: figs/20241205.residualHist.pdf Graphic file (type pdf)
 <use figs/20241205.residualHist.pdf>
 Package pdftex.def Info: figs/20241205.residualHist.pdf  used on input line 738.
 (pdftex.def)             Requested size: 210.59857pt x 137.08546pt.
-<figs/20241205.residual_byNmodes.pdf, id=651, 279.83609pt x 172.6287pt>
+<figs/20241205.residual_byNmodes.pdf, id=595, 279.83609pt x 172.6287pt>
 File: figs/20241205.residual_byNmodes.pdf Graphic file (type pdf)
 <use figs/20241205.residual_byNmodes.pdf>
 Package pdftex.def Info: figs/20241205.residual_byNmodes.pdf  used on input line 741.
 (pdftex.def)             Requested size: 224.638pt x 138.5799pt.
-[26 <./figs/20241203.modeEffectBar.pdf> <./figs/20241203.modeInteractionHeatMap.pdf>]
-
-LaTeX Warning: Reference `fig:recWakes' on page 1 undefined on input line 752.
-
-
-LaTeX Warning: Reference `fig:recWakes' on page 1 undefined on input line 753.
-
-[27 <./figs/20241203.vareps.allmodes.pdf>] [28 <./figs/20241203.vareps.highGammaPairs.pdf> <./figs/20241205.residualHist.pdf> <./figs/20241205.residual_byNmodes.pdf>]
-<figs/20241204.beta.meanRange.pdf, id=828, 276.5394pt x 184.0313pt>
+[25 <./figs/20241203.modeEffectBar.pdf> <./figs/20241203.modeInteractionHeatMap.pdf>] [26 <./figs/20241203.vareps.allmodes.pdf>] [27 <./figs/20241203.vareps.highGammaPairs.pdf> <./figs/20241205.residualHist.pdf> <./figs/20241205.residual_byNmodes.pdf>]
+<figs/20241204.beta.meanRange.pdf, id=773, 276.5394pt x 184.0313pt>
 File: figs/20241204.beta.meanRange.pdf Graphic file (type pdf)
 <use figs/20241204.beta.meanRange.pdf>
 Package pdftex.def Info: figs/20241204.beta.meanRange.pdf  used on input line 765.
 (pdftex.def)             Requested size: 224.638pt x 149.49416pt.
-<figs/20241204.beta.violinJitter.pdf, id=829, 276.5394pt x 184.0313pt>
+<figs/20241204.beta.violinJitter.pdf, id=774, 276.5394pt x 184.0313pt>
 File: figs/20241204.beta.violinJitter.pdf Graphic file (type pdf)
 <use figs/20241204.beta.violinJitter.pdf>
 Package pdftex.def Info: figs/20241204.beta.violinJitter.pdf  used on input line 768.
 (pdftex.def)             Requested size: 224.638pt x 149.49416pt.
-<figs/20241203.modeInteractionHeatMap_mean.pdf, id=830, 245.931pt x 187.24316pt>
+<figs/20241203.modeInteractionHeatMap_mean.pdf, id=775, 245.931pt x 187.24316pt>
 File: figs/20241203.modeInteractionHeatMap_mean.pdf Graphic file (type pdf)
 <use figs/20241203.modeInteractionHeatMap_mean.pdf>
 Package pdftex.def Info: figs/20241203.modeInteractionHeatMap_mean.pdf  used on input line 783.
 (pdftex.def)             Requested size: 224.638pt x 171.03723pt.
-<figs/20241203.modeInteractionHeatMap_std.pdf, id=831, 274.50537pt x 213.44017pt>
+<figs/20241203.modeInteractionHeatMap_std.pdf, id=776, 274.50537pt x 213.44017pt>
 File: figs/20241203.modeInteractionHeatMap_std.pdf Graphic file (type pdf)
 <use figs/20241203.modeInteractionHeatMap_std.pdf>
 Package pdftex.def Info: figs/20241203.modeInteractionHeatMap_std.pdf  used on input line 786.
 (pdftex.def)             Requested size: 224.638pt x 174.66707pt.
- [29 <./figs/20241204.beta.meanRange.pdf> <./figs/20241204.beta.violinJitter.pdf>]
-<figs/20241204.lamda_v_beta.pdf, id=895, 423.86308pt x 207.206pt>
+ [28 <./figs/20241204.beta.meanRange.pdf> <./figs/20241204.beta.violinJitter.pdf>]
+<figs/20241204.lamda_v_beta.pdf, id=840, 423.86308pt x 207.206pt>
 File: figs/20241204.lamda_v_beta.pdf Graphic file (type pdf)
 <use figs/20241204.lamda_v_beta.pdf>
 Package pdftex.def Info: figs/20241204.lamda_v_beta.pdf  used on input line 801.
 (pdftex.def)             Requested size: 327.59857pt x 160.15298pt.
- [30 <./figs/20241203.modeInteractionHeatMap_mean.pdf> <./figs/20241203.modeInteractionHeatMap_std.pdf> <./figs/20241204.lamda_v_beta.pdf>] [31] (aux/20240923.AWAKEN.Hamilton.draft.bbl [32] [33] [34] [35] [36]) [37] (aux/20240923.AWAKEN.Hamilton.draft.aux)
+ [29 <./figs/20241203.modeInteractionHeatMap_mean.pdf> <./figs/20241203.modeInteractionHeatMap_std.pdf> <./figs/20241204.lamda_v_beta.pdf>] [30] (aux/20240923.AWAKEN.Hamilton.draft.bbl [31] [32] [33] [34] [35]) [36] (aux/20240923.AWAKEN.Hamilton.draft.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 9618 strings out of 474116
- 172475 string characters out of 5743681
+ 9611 strings out of 474116
+ 172181 string characters out of 5743681
  1939187 words of memory out of 5000000
- 31875 multiletter control sequences out of 15000+600000
+ 31868 multiletter control sequences out of 15000+600000
  573356 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,79p,1432b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on aux/20240923.AWAKEN.Hamilton.draft.pdf (37 pages, 2210681 bytes).
+Output written on aux/20240923.AWAKEN.Hamilton.draft.pdf (36 pages, 2191580 bytes).
 PDF statistics:
- 1096 PDF objects out of 1200 (max. 8388607)
- 364 compressed objects within 4 object streams
+ 1038 PDF objects out of 1200 (max. 8388607)
+ 354 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
