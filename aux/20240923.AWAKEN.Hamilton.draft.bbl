@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{54}%
+\begin{thebibliography}{53}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -175,9 +175,6 @@
 \bibitem [{\citenamefont {Moriarty}\ \emph {et~al.}(2024)\citenamefont {Moriarty}, \citenamefont {Bodini}, \citenamefont {Letizia}, \citenamefont {Abraham}, \citenamefont {Ashley}, \citenamefont {B{\"a}rfuss}, \citenamefont {Barthelmie}, \citenamefont {Brewer}, \citenamefont {Brugger}, \citenamefont {Feuerle} \emph {et~al.}}]{moriarty2024overview}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Moriarty}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Bodini}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Letizia}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Abraham}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Ashley}}, \bibinfo {author} {\bibfnamefont {K.~B.}\ \bibnamefont {B{\"a}rfuss}}, \bibinfo {author} {\bibfnamefont {R.~J.}\ \bibnamefont {Barthelmie}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Brewer}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Brugger}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Feuerle}}, \emph {et~al.},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Overview of preparation for the american wake experiment (awaken)},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Renewable and Sustainable Energy}\ }\textbf {\bibinfo {volume} {16}} (\bibinfo {year} {2024})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {{Atmosphere to Electrons (A2e)}}(2024)}]{a2e_awaken_surfaceMet}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Atmosphere to Electrons (A2e)}}},\ }\href {https://doi.org/10.21947/1991104} {\enquote {\bibinfo {title} {awaken/sa1.sonic.z01.b0},}\ }\bibinfo {howpublished} {\url{https://a2e.energy.gov/data}} (\bibinfo {year} {2024}),\ \bibinfo {note} {maintained by A2e Data Archive and Portal for U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Cook}(2018)}]{cook2018eddy}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont {Cook}},\ }\href@noop {} {\enquote {\bibinfo {title} {Eddy correlation flux measurement system (ecor) instrument handbook},}\ }\bibinfo {type} {Tech. Rep.}\ (\bibinfo  {institution} {DOE Office of Science Atmospheric Radiation Measurement (ARM) Program~…},\ \bibinfo {year} {2018})\BibitemShut {NoStop}%

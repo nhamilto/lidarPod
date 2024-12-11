@@ -183,6 +183,14 @@ INPUT ./figs/20241206.RAAW.schem.pdf
 INPUT ./figs/20241206.RAAW.schem.pdf
 INPUT ./figs/20241206.RAAW.schem.pdf
 INPUT ./figs/20241206.RAAW.schem.pdf
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT ./figs/20240911.AWAKEN.power.curve.cases.png
 INPUT ./figs/20240911.AWAKEN.power.curve.cases.png
 INPUT ./figs/20240911.AWAKEN.power.curve.cases.png
@@ -238,11 +246,6 @@ INPUT ./figs/crossSection.lidar.20231025.063015.png
 INPUT ./figs/crossSection.lidar.20231025.063015.png
 INPUT ./figs/crossSection.lidar.20231025.063015.png
 INPUT ./figs/crossSection.lidar.20231025.063015.png
-INPUT ./figs/20230904.AWAKEN.lidarX103004.png
-INPUT ./figs/20230904.AWAKEN.lidarX103004.png
-INPUT ./figs/20230904.AWAKEN.lidarX103004.png
-INPUT ./figs/20230904.AWAKEN.lidarX103004.png
-INPUT ./figs/20230904.AWAKEN.lidarX103004.png
 INPUT ./figs/yawCorrectedWakeCenter_20240925.pdf
 INPUT ./figs/yawCorrectedWakeCenter_20240925.pdf
 INPUT ./figs/yawCorrectedWakeCenter_20240925.pdf
@@ -386,11 +389,10 @@ INPUT ./figs/20241204.lamda_v_beta.pdf
 INPUT aux/20240923.AWAKEN.Hamilton.draft.bbl
 INPUT aux/20240923.AWAKEN.Hamilton.draft.bbl
 INPUT aux/20240923.AWAKEN.Hamilton.draft.bbl
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT aux/20240923.AWAKEN.Hamilton.draft.aux
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
@@ -404,6 +406,5 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb

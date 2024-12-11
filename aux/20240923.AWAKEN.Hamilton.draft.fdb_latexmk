@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex aux/20240923.AWAKEN.Hamilton.draft"] 1733764333.29985 "aux/20240923.AWAKEN.Hamilton.draft.aux" "aux/20240923.AWAKEN.Hamilton.draft.bbl" "aux/20240923.AWAKEN.Hamilton.draft" 1733764334.80505 0
+["bibtex aux/20240923.AWAKEN.Hamilton.draft"] 1733940073.86323 "aux/20240923.AWAKEN.Hamilton.draft.aux" "aux/20240923.AWAKEN.Hamilton.draft.bbl" "aux/20240923.AWAKEN.Hamilton.draft" 1733940075.43497 0
   "./20240923.AWAKEN.refs.bib" 1733272026.60694 51506 6aeb95fe664e0de307919a646288bd72 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/revtex/aipnum4-2.bst" 1601932770 68586 d1f3a99a81bc39d512a69a183f4980c1 ""
-  "aux/20240923.AWAKEN.Hamilton.draft.aux" 1733764334.49446 18978 6df6c2a3b3b913cc323a494d67fad747 "pdflatex"
-  "aux/20240923.AWAKEN.Hamilton.draftNotes.bib" 1733764334.49563 69 d99b699d067ab3f906420b0b7ca24b61 "pdflatex"
+  "aux/20240923.AWAKEN.Hamilton.draft.aux" 1733940075.1013 20324 bb12b400cf14fb6ec09a6d4404c090d1 "pdflatex"
+  "aux/20240923.AWAKEN.Hamilton.draftNotes.bib" 1733940075.1025 69 d99b699d067ab3f906420b0b7ca24b61 "pdflatex"
   (generated)
   "aux/20240923.AWAKEN.Hamilton.draft.bbl"
   "aux/20240923.AWAKEN.Hamilton.draft.blg"
   (rewritten before read)
-["pdflatex"] 1733764333.3981 "/Users/nhamilt2/Documents/Projects/AWAKEN/lidarPOD/article/20240923.AWAKEN.Hamilton.draft.tex" "aux/20240923.AWAKEN.Hamilton.draft.pdf" "20240923.AWAKEN.Hamilton.draft" 1733764334.80523 0
-  "/Users/nhamilt2/Documents/Projects/AWAKEN/lidarPOD/article/20240923.AWAKEN.Hamilton.draft.tex" 1733764329.99732 82104 8c8e1cad9419ad9e3a8ab4a63a692647 ""
+["pdflatex"] 1733940073.97657 "/Users/nhamilt2/Documents/Projects/AWAKEN/lidarPOD/article/20240923.AWAKEN.Hamilton.draft.tex" "aux/20240923.AWAKEN.Hamilton.draft.pdf" "20240923.AWAKEN.Hamilton.draft" 1733940075.43519 0
+  "/Users/nhamilt2/Documents/Projects/AWAKEN/lidarPOD/article/20240923.AWAKEN.Hamilton.draft.tex" 1733940072.11434 72353 47812740e53286dbe1300f6d9b07fbe0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -35,6 +35,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1136768653 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
@@ -49,10 +50,9 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1136768653 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1248133631 32166 b0c356b15f19587482a9217ce1d8fa67 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1248133631 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
@@ -66,7 +66,6 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1248133631 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -117,10 +116,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1730146743.39098 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1730146716 8221433 9d5f707232ffcfde9f5241594fbcfc45 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "20240923.AWAKEN.Hamilton.draft.tex" 1733764329.99732 82104 8c8e1cad9419ad9e3a8ab4a63a692647 ""
-  "aux/20240923.AWAKEN.Hamilton.draft.aux" 1733764334.49446 18978 6df6c2a3b3b913cc323a494d67fad747 "pdflatex"
-  "aux/20240923.AWAKEN.Hamilton.draft.bbl" 1733764333.39185 43552 fce95c7e62792ac78bdc0455cf39f2d7 "bibtex aux/20240923.AWAKEN.Hamilton.draft"
-  "figs/20230904.AWAKEN.lidarX103004.png" 1726181277 44989 c87781cfcdab704c385ba12951d69e47 ""
+  "20240923.AWAKEN.Hamilton.draft.tex" 1733940072.11434 72353 47812740e53286dbe1300f6d9b07fbe0 ""
+  "aux/20240923.AWAKEN.Hamilton.draft.aux" 1733940075.1013 20324 bb12b400cf14fb6ec09a6d4404c090d1 "pdflatex"
+  "aux/20240923.AWAKEN.Hamilton.draft.bbl" 1733940073.96779 43005 1a1faa7747b77f48fc1038ff4305b79b "bibtex aux/20240923.AWAKEN.Hamilton.draft"
   "figs/20240826.AWAKEN.all.modes.png" 1724682899 187937 37230dbff00c1050cc3738e02ec7f09d ""
   "figs/20240911.AWAKEN.power.curve.cases.png" 1726093415 86546 1a3aba9b944af9a777d63172bdf2a601 ""
   "figs/20240923.AWAKEN.awakenSchem.png" 1727131718.583 596007 555c91061188a20e79a6bd0ee81c9bcb ""
